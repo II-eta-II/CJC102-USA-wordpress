@@ -11,6 +11,7 @@ env:
   AWS_REGION: ${{ secrets.AWS_REGION }}
   ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY }}
   AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
+  S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
 
 jobs:
   deploy:
@@ -86,3 +87,30 @@ jobs:
           echo "   - $IMAGE_BASE:latest"
           echo "   - $IMAGE_BASE:$VERSION_MAJOR"
           echo "   - $IMAGE_BASE:$VERSION_MINOR"
+
+      - name: Upload database backup to S3
+        if: steps.check-tag.outputs.exists != 'true'
+        run: |
+          # 檢查 db_dump.sql 是否存在
+          if [ -f "db_dump.sql" ]; then
+            # 生成時間戳記 (yyyy-mm-dd-hh-mm)
+            TIMESTAMP=$(date -u +"%Y-%m-%d-%H-%M")
+            S3_FILE_NAME="db_dump_${TIMESTAMP}.sql"
+            
+            echo "📤 Uploading database backup to S3..."
+            echo "   Source: db_dump.sql"
+            echo "   Destination: s3://$S3_BUCKET_NAME/$S3_FILE_NAME"
+            
+            # 上傳到 S3
+            aws s3 cp db_dump.sql "s3://$S3_BUCKET_NAME/$S3_FILE_NAME"
+            
+            if [ $? -eq 0 ]; then
+              echo "✅ Database backup uploaded successfully!"
+              echo "   File: $S3_FILE_NAME"
+            else
+              echo "❌ Failed to upload database backup"
+              exit 1
+            fi
+          else
+            echo "⚠️ db_dump.sql not found in repository, skipping upload"
+          fi
