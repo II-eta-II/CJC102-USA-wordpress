@@ -1,0 +1,37 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: wordpress-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: wordpress
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+
+  app:
+    build: .
+    container_name: wordpress-app
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: rootpassword
+      WORDPRESS_DB_NAME: wordpress
+      # 本地允許安裝外掛
+      WORDPRESS_LOCK_MODS: "false"
+      WORDPRESS_DEBUG: "true"
+    volumes:
+      # 【關鍵】同步本地程式碼到容器
+      - ./src:/var/www/html
+      # 【關鍵】模擬 EFS (Uploads 持久化)
+      - ./src/wp-content/uploads:/var/www/html/wp-content/uploads
+    depends_on:
+      - db
+
+volumes:
+  db_data:

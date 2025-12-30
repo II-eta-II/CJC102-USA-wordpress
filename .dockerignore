@@ -1,0 +1,9 @@
+.git
+.github
+wp-content/uploads
+db_data
+.env
+terraform
+docker-compose.yml
+Dockerfile
+README.md
