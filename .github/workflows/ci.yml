@@ -1,6 +1,5 @@
 name: Deploy to Amazon ECR
 
-# 1. 修正：新增觸發條件
 on:
   push:
     branches: [ "main" ]
@@ -21,6 +20,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Read VERSION file
+        id: version
+        run: |
+          VERSION=$(cat VERSION | tr -d '\r\n')
+          MAJOR=$(echo $VERSION | cut -d. -f1)
+          MINOR=$(echo $VERSION | cut -d. -f1-2)
+          echo "full=$VERSION" >> $GITHUB_OUTPUT
+          echo "major=v$MAJOR" >> $GITHUB_OUTPUT
+          echo "minor=v$MINOR" >> $GITHUB_OUTPUT
+          echo "📦 Full version: $VERSION"
+          echo "📦 Major tag: v$MAJOR"
+          echo "📦 Minor tag: v$MINOR"
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -31,13 +43,47 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v2
 
-      # 2. 修正：補上實際的 docker 指令
-      - name: Build, tag, and push image
+      - name: Check if version tag exists
+        id: check-tag
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          IMAGE_TAG: latest
+          VERSION_TAG: ${{ steps.version.outputs.full }}
         run: |
-          # 編譯 Docker 映像檔
-          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-          # 推送到 AWS ECR
-          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          # 檢查完整版本號是否已存在於 ECR
+          if aws ecr describe-images --repository-name $ECR_REPOSITORY --image-ids imageTag=$VERSION_TAG 2>/dev/null; then
+            echo "⚠️ Version $VERSION_TAG already exists in ECR. Skipping build."
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "✅ Version $VERSION_TAG does not exist. Proceeding with build."
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build, tag, and push image
+        if: steps.check-tag.outputs.exists != 'true'
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          VERSION_FULL: ${{ steps.version.outputs.full }}
+          VERSION_MAJOR: ${{ steps.version.outputs.major }}
+          VERSION_MINOR: ${{ steps.version.outputs.minor }}
+        run: |
+          IMAGE_BASE=$ECR_REGISTRY/$ECR_REPOSITORY
+          
+          echo "🔨 Building Docker image..."
+          docker build -t $IMAGE_BASE:$VERSION_FULL .
+          
+          echo "🏷️ Tagging image with multiple tags..."
+          docker tag $IMAGE_BASE:$VERSION_FULL $IMAGE_BASE:latest
+          docker tag $IMAGE_BASE:$VERSION_FULL $IMAGE_BASE:$VERSION_MAJOR
+          docker tag $IMAGE_BASE:$VERSION_FULL $IMAGE_BASE:$VERSION_MINOR
+          
+          echo "📤 Pushing all tags to ECR..."
+          docker push $IMAGE_BASE:$VERSION_FULL
+          docker push $IMAGE_BASE:latest
+          docker push $IMAGE_BASE:$VERSION_MAJOR
+          docker push $IMAGE_BASE:$VERSION_MINOR
+          
+          echo "✅ Successfully pushed:"
+          echo "   - $IMAGE_BASE:$VERSION_FULL"
+          echo "   - $IMAGE_BASE:latest"
+          echo "   - $IMAGE_BASE:$VERSION_MAJOR"
+          echo "   - $IMAGE_BASE:$VERSION_MINOR"
