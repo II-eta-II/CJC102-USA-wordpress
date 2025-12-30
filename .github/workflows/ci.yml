@@ -2,7 +2,6 @@ name: Deploy to Amazon ECR
 
 on:
   push:
-    branches: [ "main" ]
 
 permissions:
   id-token: write   # OIDC 必備
