@@ -22,8 +22,12 @@ COPY uploads.ini /usr/local/etc/php/conf.d/uploads.ini
 WORKDIR /var/www/html
 COPY src/ .
 
+# 複製 entrypoint 腳本並設定執行權限
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+RUN chmod +x /docker-entrypoint.sh
+
 # 修正權限（確保 www-data 使用者有權限讀寫，這對應你 EFS Access Point 的 ID 33）
 RUN chown -R www-data:www-data /var/www/html
 
-# 啟動 Supervisor（同時管理 Nginx 和 PHP-FPM）
-CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
+# 使用 entrypoint 腳本啟動（會在啟動時修正掛載目錄的權限）
+ENTRYPOINT ["/docker-entrypoint.sh"]

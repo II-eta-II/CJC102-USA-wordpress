@@ -1,0 +1,462 @@
+# Translation of Themes - Twenty Seventeen in Chinese (Taiwan)
+# This file is distributed under the same license as the Themes - Twenty Seventeen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-12-03 23:53:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Themes - Twenty Seventeen\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device."
+msgstr "Twenty Seventeen 透過頁首視訊及令人身歷其境的精選圖片，使網站鮮活了起來。以商業網站的觀點來看，它的特色為首頁的多重區段、小工具、導覽、社交網路服務連結選單及標誌等等。它還使用自訂色彩配置對非對稱式網格進行個人化，並以文章格式展示多媒體內容。這個 2017 年推出的預設佈景主題，具備多國語言版本，並適用於各種用途及裝置。"
+
+#. Theme Name of the theme
+#: style.css inc/block-patterns.php:17
+#, gp-priority: high
+msgid "Twenty Seventeen"
+msgstr "Twenty Seventeen"
+
+#: inc/customizer.php:76
+msgid "Hue"
+msgstr "色調"
+
+#: inc/block-patterns.php:193
+msgid "Contact us"
+msgstr "聯絡我們"
+
+#: inc/block-patterns.php:188
+msgid "We are proud to serve outstanding clients."
+msgstr "能服務優秀的客戶，我們倍感榮幸。"
+
+#: inc/block-patterns.php:184
+msgid "Contact Us"
+msgstr "聯絡我們"
+
+#: inc/block-patterns.php:170
+msgid "Video Production"
+msgstr "影片製作"
+
+#: inc/block-patterns.php:170
+msgid "Marketing &amp; SEO"
+msgstr "行銷及搜尋引擎最佳化"
+
+#: inc/block-patterns.php:170
+msgid "Content Strategy"
+msgstr "內容策略"
+
+#: inc/block-patterns.php:162
+msgid "Web Development"
+msgstr "網站開發"
+
+#: inc/block-patterns.php:148
+msgid "Services"
+msgstr "服務項目"
+
+#: inc/block-patterns.php:131
+msgid "Strategy"
+msgstr "策略"
+
+#: inc/block-patterns.php:128
+msgid "Direct Light"
+msgstr "直射光線"
+
+#: inc/block-patterns.php:117
+msgid "Design"
+msgstr "設計"
+
+#: inc/block-patterns.php:90
+msgid "Images with Link"
+msgstr "包含連結的圖片"
+
+#: inc/block-patterns.php:77
+msgid "Need a website? We&#39;ve got you covered. Our design team will create a stunning design to transform your brand."
+msgstr "有網站建置需求嗎？我們能夠滿足所有需求，並且設計團隊具備建立能提升品牌形象的出色設計能力。"
+
+#: inc/block-patterns.php:74 inc/block-patterns.php:162
+msgid "Web Design"
+msgstr "網站設計"
+
+#: inc/block-patterns.php:71 inc/block-patterns.php:114
+msgid "White border"
+msgstr "白色框線"
+
+#: inc/block-patterns.php:63 inc/block-patterns.php:80
+#: inc/block-patterns.php:106 inc/block-patterns.php:120
+#: inc/block-patterns.php:134
+msgid "See Case Study"
+msgstr "查看案例研究"
+
+#: inc/block-patterns.php:60
+msgid "Communicate your purpose and goals with a beautiful logo that encapsulates your business."
+msgstr "以精緻美觀、具備業務代表性的標誌，傳達組織的目的及目標。"
+
+#: inc/block-patterns.php:57 inc/block-patterns.php:103
+#: inc/block-patterns.php:162
+msgid "Branding"
+msgstr "品牌規劃"
+
+#: inc/block-patterns.php:54 inc/block-patterns.php:100
+msgid "Black Stripes"
+msgstr "黑色條紋"
+
+#: inc/block-patterns.php:45
+msgid "Images with Text and Link"
+msgstr "包含文字及連結的圖片"
+
+#: inc/block-patterns.php:36 inc/block-patterns.php:155
+msgid "Our Services"
+msgstr "我們的服務項目"
+
+#: inc/block-patterns.php:31
+msgid "Attract Leads with Marketing Campaigns that Work"
+msgstr "舉辦有效的行銷活動吸引潛在客戶"
+
+#: inc/block-patterns.php:28
+msgid "Large Heading with Button"
+msgstr "包含按鈕的大型標題"
+
+#: template-parts/footer/footer-widgets.php:18
+msgid "Footer"
+msgstr "頁尾"
+
+#: functions.php:343
+msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr "在這裡新增小工具便能顯示於網站文章頁面及彙整頁面的資訊欄。"
+
+#: functions.php:341 sidebar.php:18
+msgid "Blog Sidebar"
+msgstr "網站資訊欄"
+
+#. translators: Hidden accessibility text.
+#: template-parts/header/site-branding.php:42
+#: template-parts/navigation/navigation-top.php:34
+msgid "Scroll down to content"
+msgstr "向下捲動至主內容區"
+
+#: functions.php:186
+msgctxt "Theme starter content"
+msgid "Coffee"
+msgstr "咖啡"
+
+#: functions.php:182
+msgctxt "Theme starter content"
+msgid "Sandwich"
+msgstr "三明治"
+
+#: functions.php:178
+msgctxt "Theme starter content"
+msgid "Espresso"
+msgstr "濃縮咖啡"
+
+#. translators: Hidden accessibility text.
+#: inc/custom-header.php:130
+msgid "Pause background video"
+msgstr "暫停背景視訊"
+
+#. translators: Hidden accessibility text.
+#: inc/custom-header.php:128
+msgid "Play background video"
+msgstr "播放背景視訊"
+
+#. translators: %s: The section ID.
+#: inc/template-tags.php:179
+msgid "Front Page Section %s Placeholder"
+msgstr "靜態首頁區段 %s 預留位置"
+
+#: inc/customizer.php:110
+msgid "When the two-column layout is assigned, the page title is in one column and content is in the other."
+msgstr "將版面配置設定為兩欄後，頁面標題與內容便會各佔一欄。"
+
+#. translators: Hidden accessibility text.
+#: single.php:36
+msgid "Next Post"
+msgstr "下一篇文章"
+
+#: index.php:27
+msgid "Posts"
+msgstr "文章"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:94
+msgid "Tags"
+msgstr "標籤"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:86
+msgid "Categories"
+msgstr "分類"
+
+#. translators: Used between list items, there is a space after the comma.
+#: functions.php:688
+msgid ", "
+msgstr "、"
+
+#. translators: %s: Post date.
+#: inc/template-tags.php:52
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr "<span class=\"screen-reader-text\">發佈於 </span>%s"
+
+#. translators: %s: Post author.
+#: inc/template-tags.php:21
+msgid "by %s"
+msgstr "作者: %s"
+
+#: inc/icon-functions.php:44
+msgid "Please define an SVG icon filename."
+msgstr "請定義 SVG 圖示的檔案名稱。"
+
+#: inc/icon-functions.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr "請定義用於陣列形式內的預設參數。"
+
+#: inc/customizer.php:144
+msgid "Select pages to feature in each area from the dropdowns. Add an image to a section by setting a featured image in the page editor. Empty sections will not be displayed."
+msgstr "請從下拉式選單中選取各個區段要顯示的頁面。如需為區段加入圖片，請使用頁面編輯器為選取的頁面設定精選圖片。請注意，這個佈景主題不會顯示沒有頁面內容的區段。"
+
+#. translators: %d: The front page section number.
+#: inc/customizer.php:143
+msgid "Front Page Section %d Content"
+msgstr "靜態首頁區段 %d 內容"
+
+#: inc/customizer.php:113 inc/customizer.php:172
+msgid "Two Column"
+msgstr "兩欄"
+
+#: inc/customizer.php:112 inc/customizer.php:171
+msgid "One Column"
+msgstr "單欄"
+
+#: inc/customizer.php:107
+msgid "Page Layout"
+msgstr "頁面版面配置"
+
+#: inc/customizer.php:90
+msgid "Theme Options"
+msgstr "佈景主題選項"
+
+#: inc/customizer.php:64
+msgid "Custom"
+msgstr "自訂"
+
+#: inc/customizer.php:62
+msgid "Light"
+msgstr "淺色"
+
+#: inc/customizer.php:60
+msgid "Color Scheme"
+msgstr "色彩配置"
+
+#: inc/custom-header.php:56
+msgid "Default Header Image"
+msgstr "預設頁首圖片"
+
+#: functions.php:365
+msgid "Footer 2"
+msgstr "頁尾 2"
+
+#: functions.php:355 functions.php:367
+msgid "Add widgets here to appear in your footer."
+msgstr "在這裡新增小工具便能顯示於網站頁尾。"
+
+#: functions.php:353
+msgid "Footer 1"
+msgstr "頁尾 1"
+
+#. translators: If there are characters in your language that are not supported
+#. by Libre Franklin, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:301
+msgctxt "Libre Franklin font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:62 functions.php:210
+#: template-parts/navigation/navigation-top.php:12
+msgid "Top Menu"
+msgstr "頂端選單"
+
+#: comments.php:62
+msgid "Reply"
+msgstr "發佈留言"
+
+#: template-parts/post/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "找不到符合條件的內容。請使用搜尋功能，應會有所幫助。"
+
+#: search.php:62
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "很抱歉，找不到符合搜尋條件的結果，請以不同的關鍵字重試。"
+
+#. translators: %s: Post editor URL.
+#: template-parts/post/content-none.php:27
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "準備發佈第一篇文章了嗎？請從<a href=\"%s\">這裡</a>開始。"
+
+#: search.php:26 template-parts/post/content-none.php:17
+msgid "Nothing Found"
+msgstr "找不到符合條件的結果"
+
+#. translators: Hidden accessibility text.
+#: single.php:34
+msgid "Previous Post"
+msgstr "上一篇文章"
+
+#. translators: Hidden accessibility text.
+#: comments.php:72 single.php:34
+msgid "Previous"
+msgstr "上一篇"
+
+#. translators: Hidden accessibility text.
+#: comments.php:74 single.php:36
+msgid "Next"
+msgstr "下一篇"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:28
+msgctxt "submit button"
+msgid "Search"
+msgstr "搜尋"
+
+#: searchform.php:24
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "搜尋..."
+
+#. translators: Hidden accessibility text.
+#: searchform.php:20
+msgctxt "label"
+msgid "Search for:"
+msgstr "搜尋關鍵字:"
+
+#. translators: Search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "「%s」的搜尋結果"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: functions.php:395 template-parts/page/content-front-page-panels.php:45
+#: template-parts/page/content-front-page.php:42
+#: template-parts/post/content-audio.php:84
+#: template-parts/post/content-gallery.php:70
+#: template-parts/post/content-image.php:61
+#: template-parts/post/content-video.php:83 template-parts/post/content.php:57
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "閱讀全文<span class=\"screen-reader-text\">〈%s〉</span>"
+
+#: inc/customizer.php:63
+msgid "Dark"
+msgstr "深色"
+
+#. translators: %s: The current WordPress version.
+#: inc/back-compat.php:43 inc/back-compat.php:60 inc/back-compat.php:83
+msgid "Twenty Seventeen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Seventeen 最低需求為 WordPress 4.7，而這個網站執行的是 %s，請於網站完成升級後再試一次。"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:124
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "編輯<span class=\"screen-reader-text\">〈%s〉</span>"
+
+#: template-parts/page/content-front-page.php:48
+#: template-parts/page/content-page.php:26
+#: template-parts/post/content-audio.php:91
+#: template-parts/post/content-gallery.php:77
+#: template-parts/post/content-image.php:68
+#: template-parts/post/content-video.php:90 template-parts/post/content.php:64
+msgid "Pages:"
+msgstr "頁次:"
+
+#: template-parts/navigation/navigation-top.php:17
+msgid "Menu"
+msgstr "選單"
+
+#. translators: Hidden accessibility text.
+#: header.php:31
+msgid "Skip to content"
+msgstr "跳至主要內容"
+
+#: functions.php:509
+msgid "Collapse child menu"
+msgstr "收合子選單"
+
+#: functions.php:508
+msgid "Expand child menu"
+msgstr "展開子選單"
+
+#: functions.php:63 functions.php:221
+msgid "Social Links Menu"
+msgstr "社交網路服務連結選單"
+
+#. translators: %s: WordPress
+#: template-parts/footer/site-info.php:21
+msgid "Proudly powered by %s"
+msgstr "本站採用 %s 建置"
+
+#: footer.php:26
+msgid "Footer Social Links Menu"
+msgstr "頁尾社交網路服務連結選單"
+
+#: comments.php:84
+msgid "Comments are closed."
+msgstr "留言功能已關閉。"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "在〈%2$s〉中有 %1$s 則留言"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "在〈%s〉中有 1 則留言"
+
+#. translators: Hidden accessibility text.
+#: archive.php:54 index.php:58 search.php:55
+msgid "Page"
+msgstr "頁次"
+
+#. translators: Hidden accessibility text.
+#: archive.php:52 index.php:56 search.php:53
+msgid "Next page"
+msgstr "下一頁"
+
+#. translators: Hidden accessibility text.
+#: archive.php:50 index.php:54 search.php:51
+msgid "Previous page"
+msgstr "上一頁"
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "在這裡找不到符合條件的項目，請使用搜尋功能進行查詢。"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "很抱歉，找不到符合條件的頁面。"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "WordPress 團隊"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentyseventeen/"
+msgstr "https://tw.wordpress.org/themes/twentyseventeen/"
+
+#. Author URI of the theme
+#: style.css template-parts/footer/site-info.php:18
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://tw.wordpress.org/"
