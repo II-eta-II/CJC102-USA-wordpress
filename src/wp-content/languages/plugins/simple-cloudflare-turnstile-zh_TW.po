@@ -1,0 +1,1275 @@
+# Translation of Plugins - Simple CAPTCHA Alternative with Cloudflare Turnstile - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Simple CAPTCHA Alternative with Cloudflare Turnstile - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-10-28 08:01:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Simple CAPTCHA Alternative with Cloudflare Turnstile - Stable (latest release)\n"
+
+#: inc/admin/admin-options.php:2074
+msgid "Sponsor"
+msgstr "贊助者"
+
+#: inc/admin/admin-options.php:2071
+msgid "Help fund ongoing development, maintenance, and support of this 100% free plugin, and be listed as a sponsor."
+msgstr "資助這個完全免費的外掛持續開發、維護並提供技術支援，並能在 GitHub 上列為贊助者。"
+
+#: inc/admin/admin-options.php:2070
+msgid "Sponsor:"
+msgstr "贊助者:"
+
+#: inc/admin/admin-options.php:2060
+msgid "Consider making a small donation to the developer to help support the plugin."
+msgstr "請考慮小額贊助支持開發者的外掛開發工作。"
+
+#: inc/admin/admin-options.php:2052
+msgid "Review"
+msgstr "使用者評論"
+
+#: inc/admin/admin-options.php:2048
+msgid "If you found this plugin useful, please submit a positive review on <a href=\"%s\" target=\"_blank\">WordPress.org</a>."
+msgstr "如果這個外掛對網站有所幫助，請在 <a href=\"%s\" target=\"_blank\">WordPress.org</a> 上撰寫正面的使用者評論。"
+
+#: inc/admin/admin-options.php:2047
+msgid "Leave a Review:"
+msgstr "撰寫評論:"
+
+#: inc/admin/admin-options.php:2042
+msgid "Thanks to the donors and <a href=\"%s\" target=\"_blank\">sponsors</a> that help support my free plugins to keep them 100%% free, maintained and supported."
+msgstr "感謝一般贊助者及 <a href=\"%s\" target=\"_blank\">GitHub 贊助者</a>協助這個免費外掛維持提供 100%% 免費、維護及技術支援。"
+
+#: inc/admin/admin-options.php:2038
+msgid "Support The Plugin"
+msgstr "支持外掛開發工作"
+
+#: inc/admin/admin-options.php:2013
+msgid "Help and Resources:"
+msgstr "線上說明及相關資源:"
+
+#: inc/admin/admin-options.php:1469
+msgid "If the Turnstile widget is not showing, disable <a href=\"%s\" target=\"_blank\">Element Caching</a> for the Elementor form on your page, or try switching Integration Method."
+msgstr "如果沒有顯示 Turnstile 小工具，代表必須為相關頁面的 Elementor 聯絡表單停用 <a href=\"%s\" target=\"_blank\">Element 快取</a>，或切換 [整合方法]。"
+
+#: inc/admin/admin-options.php:1456
+msgid "Page IDs (comma-separated)"
+msgstr "頁面 ID (使用逗號分隔)"
+
+#: inc/admin/admin-options.php:1451
+msgid "Loads scripts only on the page IDs you enter below. Leave the list empty to load nowhere."
+msgstr "僅在符合下方輸入的頁面 ID 的頁面載入指令碼。留空代表不在任何位置載入指令碼。"
+
+#: inc/admin/admin-options.php:1448
+msgid "Loads scripts only on pages that include an Elementor Form or Login widget. Popups or global templates may not be detected."
+msgstr "僅在頁面包含 Elementor 聯絡表單或登入小工具時載入指令碼。可能無法偵測到彈出式訊息或全域範本。"
+
+#: inc/admin/admin-options.php:1445
+msgid "Loads scripts on all Elementor pages. Use this if caching breaks the element-based method. May load scripts on pages without forms."
+msgstr "在全部 Elementor 頁面載入指令碼。如果快取造成以元素為基礎的方法，請使用這項設定。這項設定可能會在沒有包含聯絡表單的頁面載入指令碼。"
+
+#: inc/admin/admin-options.php:1442
+msgid "Enter specific page IDs"
+msgstr "輸入指定頁面 ID"
+
+#: inc/admin/admin-options.php:1441
+msgid "Autodetect pages with forms"
+msgstr "自動偵測包含聯絡表單的頁面"
+
+#: inc/admin/admin-options.php:1440
+msgid "All Elementor pages"
+msgstr "全部 Elementor Forms 頁面"
+
+#: inc/admin/admin-options.php:1437
+msgid "Load scripts on:"
+msgstr "指令碼載入位置:"
+
+#: inc/admin/admin-options.php:1426
+msgid "Instead of using this option, try disabling Element caching first."
+msgstr "使用這項設定前，請先嘗試停用 Element 快取再做決定。"
+
+#: inc/admin/admin-options.php:1425
+msgid "Scripts are loaded globally on all Elementor pages. This method works better with some caching but may load scripts on pages without forms."
+msgstr "在全部 Elementor 頁面全域載入指令碼。這個方法會比一些使用快取的狀況下效果更好，但可能會在沒有表單的頁面載入指令碼。"
+
+#: inc/admin/admin-options.php:1421
+msgid "(Recommended) Scripts are loaded when each form element is rendered. This is the ideal method but may not work with some caching. Have issues? Try disabling Element caching."
+msgstr "(建議使用) 在轉譯全部元素時載入指令碼。這是最理想的方法，但卻可能在某些快取的狀況下無法運作。如果發生問題，請停用元素快取。"
+
+#: inc/admin/admin-options.php:1415
+msgid "Load Scripts Globally"
+msgstr "全域載入指令碼"
+
+#: inc/admin/admin-options.php:1412
+msgid "Load Scripts Via Element"
+msgstr "透過元素載入指令碼"
+
+#: inc/admin/admin-options.php:1407
+msgid "Integration Method"
+msgstr "整合方法"
+
+#: inc/admin/admin-options.php:493
+msgid "Adds better compatibility with popular performance/optimization plugins (e.g. WP Rocket, LiteSpeed Cache, Autoptimize, Perfmatters, SG Optimizer) to prevent their JS optimizations from breaking Turnstile. Disable only if this causes issues."
+msgstr "為使用常用的效能/最佳化外掛 (例如 WP Rocket、LiteSpeed Cache、Autoptimize、Perfmatters、SG Optimizer 等) 的網站帶來更加的相容性，以避免這類外掛的 JS 最佳化造成 Turnstile 停擺。僅有在這個功能造成問題才需要停用。"
+
+#: inc/admin/admin-options.php:489
+msgid "Performance Plugin Compatibility"
+msgstr "效能外掛相容性"
+
+#: inc/admin/admin-options.php:474
+msgid "Performance"
+msgstr "效能"
+
+#: inc/admin/admin-options.php:435
+msgid "Custom Messages"
+msgstr "自訂訊息"
+
+#: inc/admin/admin-options.php:358
+msgid "Widget Customization"
+msgstr "自訂小工具"
+
+#: inc/admin/admin-options.php:881
+msgid "Link by Stripe"
+msgstr "Link by Stripe"
+
+#: inc/admin/admin-options.php:876
+msgid "Google Pay"
+msgstr "Google Pay"
+
+#: inc/admin/admin-options.php:871
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: inc/admin/admin-options.php:865
+msgid "WooPayments Express"
+msgstr "WooPayments Express"
+
+#: inc/admin/admin-options.php:794
+msgid "Note: Currently Turnstile is not able to perform spam checks for some \"Express Checkout\" payment methods (e.g. PayPal, Google Pay, Apple Pay, Amazon Pay) and will skip them automatically."
+msgstr "注意事項: Turnstile 目前無法對某些具備快速結帳功能的付款方法 (例如 PayPal、Google Pay、Apple Pay、Amazon Pay 等) 進行垃圾訊息檢查，並會自動略過這些付款方法。"
+
+#: inc/admin/export-import.php:174
+msgid "Import failed: File is not a Simple Cloudflare Turnstile export."
+msgstr "匯入失敗: 檔案不是由 Simple Cloudflare Turnstile 所匯出。"
+
+#: inc/admin/export-import.php:171
+msgid "Import failed: File too large."
+msgstr "匯入失敗: 檔案大小超過上限。"
+
+#: inc/admin/export-import.php:168
+msgid "Import failed: File type must be .json."
+msgstr "匯入失敗: 檔案類型必須是 .json。"
+
+#: inc/admin/export-import.php:165
+msgid "Import failed: Invalid JSON file."
+msgstr "匯入失敗: 無效的 JSON 檔案。"
+
+#: inc/admin/export-import.php:162
+msgid "Import failed: File was empty."
+msgstr "匯入失敗: 檔案內容為空。"
+
+#: inc/admin/export-import.php:159
+msgid "Import failed: Upload error."
+msgstr "匯入失敗: 上傳檔案時發生錯誤。"
+
+#: inc/admin/export-import.php:156
+msgid "Import failed: No file uploaded."
+msgstr "匯入失敗: 沒有上傳任何檔案。"
+
+#: inc/admin/export-import.php:153
+msgid "Import failed."
+msgstr "匯入失敗。"
+
+#: inc/admin/export-import.php:150
+msgid "Settings imported successfully. %d option(s) updated."
+msgstr "設定已成功匯入。%d 個選項已更新。"
+
+#: inc/admin/export-import.php:62
+msgid "You do not have permission to import settings."
+msgstr "目前的登入身分沒有匯入設定的權限。"
+
+#: inc/admin/export-import.php:11
+msgid "You do not have permission to export settings."
+msgstr "目前的登入身分沒有匯出設定的權限。"
+
+#: inc/admin/admin-options.php:1921
+msgid "Note: Site/Secret keys defined in wp-config.php will not be overwritten by import."
+msgstr "注意事項: 匯入設定時不會覆寫在 wp-config.php 檔案中定義的網站金鑰/秘密金鑰。"
+
+#: inc/admin/admin-options.php:1919
+msgid "Import JSON"
+msgstr "匯入 JSON 檔案"
+
+#: inc/admin/admin-options.php:1913
+msgid "Import Settings"
+msgstr "匯入設定"
+
+#: inc/admin/admin-options.php:1908
+msgid "Download JSON"
+msgstr "下載 JSON 檔案"
+
+#: inc/admin/admin-options.php:1906
+msgid "Include API keys (sensitive)"
+msgstr "包含 API 金鑰 (敏感性資訊)"
+
+#: inc/admin/admin-options.php:1900
+msgid "Export Settings"
+msgstr "匯出設定"
+
+#: inc/admin/admin-options.php:1896
+msgid "Export all plugin settings to a JSON file, or import from a JSON file exported from this plugin."
+msgstr "將外掛的全部設定匯出為 JSON 檔案，或匯入這個外掛匯出的 JSON 檔案。"
+
+#: inc/admin/admin-options.php:1893
+msgid "Export / Import Settings"
+msgstr "匯出/匯入設定"
+
+#: inc/admin/admin-options.php:240
+msgid "Warning: This is not required. Only do this if you are comfortable editing wp-config.php. If you define the keys here, they will override the settings above."
+msgstr "警告: 這不是必要設定，且僅有在具備編輯 wp-config.php 的權限時才能進行這項設定。如果將金鑰定義於 wp-config.php 中，就會覆寫上方的設定。"
+
+#: inc/admin/admin-options.php:232
+msgid "To do this, add the following lines to your wp-config.php file before the line that says \"/* That's all, stop editing! Happy publishing. */\":"
+msgstr "如需進行這項設定，請在這個網站的 wp-config.php 中將以下常數新增於「/* That's all, stop editing! Happy publishing. */」之前。"
+
+#: inc/admin/admin-options.php:229
+msgid "You can optionally define your API keys in your wp-config.php file so the keys are not stored in the database."
+msgstr "網站管理員可以選擇性在 wp-config.php 檔案中定義專屬 API 金鑰，金鑰便不會儲存在網站資料庫中。"
+
+#: inc/admin/admin-options.php:223
+msgid "Optional: Define keys in wp-config.php"
+msgstr "選用: 在 wp-config.php 中定義金鑰"
+
+#: inc/admin/admin-options.php:161
+msgid "Using keys defined in wp-config.php. Be sure to test your forms to confirm they are working."
+msgstr "目前使用定義於 wp-config.php 中的金鑰。請務必測試這個網站的表單，以確認金鑰能否正確運作。"
+
+#. Plugin Name of the plugin
+#: simple-cloudflare-turnstile.php inc/admin/admin-options.php:81
+msgid "Simple CAPTCHA Alternative with Cloudflare Turnstile"
+msgstr "Simple CAPTCHA Alternative with Cloudflare Turnstile"
+
+#: inc/admin/admin-options.php:1819
+msgid "Turnstile is supported for WP User Manager Login, Registration and Reset Password forms. Enable for these forms in the \"Default WordPress Forms\" settings."
+msgstr "Turnstile 支援 WP User Manager 的登入表單、註冊表單及重設密碼表單。請在 [WordPress 預設功能表單] 設定中啟用這些功能表單。"
+
+#: inc/admin/admin-options.php:1815 inc/admin/admin-options.php:1825
+msgid "WP User Manager"
+msgstr "WP User Manager"
+
+#: inc/admin/admin-options.php:2021
+msgid "Not sure how to use this plugin?"
+msgstr "了解這個外掛的使用方式"
+
+#: inc/admin/admin-options.php:2017
+msgid "100% free plugin by"
+msgstr "這個 100% 免費外掛的開發者為"
+
+#: inc/admin/admin-options.php:1538
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with Kadence Forms."
+msgstr "啟用這項設定後，Cloudflare Turnstile 人機驗證功能便會顯示於全部 Kadence 聯絡表單的提交按鈕上方。"
+
+#: inc/admin/admin-options.php:1531
+msgid "Enable on all Kadence Forms"
+msgstr "在全部 Kadence 聯絡表單中啟用"
+
+#: inc/admin/admin-options.php:1524 inc/admin/admin-options.php:1543
+msgid "Kadence Forms"
+msgstr "Kadence 聯絡表單"
+
+#: inc/admin/admin-options.php:1512
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with MailPoet."
+msgstr "啟用這項設定後，Cloudflare Turnstile 人機驗證功能便會顯示於全部 MailPoet 聯絡表單的提交按鈕上方。"
+
+#: inc/admin/admin-options.php:1505
+msgid "Enable on all MailPoet Forms"
+msgstr "在全部 MailPoet 聯絡表單中啟用"
+
+#: inc/admin/admin-options.php:1498 inc/admin/admin-options.php:1518
+msgid "MailPoet"
+msgstr "MailPoet"
+
+#: inc/admin/admin-options.php:1216
+msgid "When enabled, Turnstile will be added after the submit button, on ALL your forms created with Jetpack Forms."
+msgstr "啟用這項設定後，Cloudflare Turnstile 人機驗證功能便會顯示於全部 Jetpack 表單的提交按鈕上方。"
+
+#: inc/admin/admin-options.php:1209
+msgid "Enable on all Jetpack Forms"
+msgstr "在全部 Jetpack 表單中啟用"
+
+#: inc/admin/admin-options.php:1202 inc/admin/admin-options.php:1221
+msgid "Jetpack Forms"
+msgstr "Jetpack 表單"
+
+#: inc/integrations/ecommerce/woocommerce.php:216
+msgid "Turnstile token."
+msgstr "Turnstile 權杖。"
+
+#: inc/admin/admin-options.php:373
+msgid "Compact (150px)"
+msgstr "密集 (150px)"
+
+#: inc/admin/admin-options.php:370
+msgid "Flexible (100%)"
+msgstr "彈性 (100%)"
+
+#: inc/admin/admin-options.php:367
+msgid "Normal (300px)"
+msgstr "標準 (300px)"
+
+#: inc/admin/admin-options.php:363
+msgid "Widget Size"
+msgstr "小工具尺寸"
+
+#: inc/admin/admin-options.php:316
+msgid "Vietnamese (Vietnam)"
+msgstr "越南文 (越南)"
+
+#: inc/admin/admin-options.php:315
+msgid "Ukrainian (Ukraine)"
+msgstr "烏克蘭文 (烏克蘭)"
+
+#: inc/admin/admin-options.php:314
+msgid "Turkish (Turkey)"
+msgstr "土耳其文 (土耳其)"
+
+#: inc/admin/admin-options.php:313
+msgid "Thai (Thailand)"
+msgstr "泰文 (泰國)"
+
+#: inc/admin/admin-options.php:312
+msgid "Tagalog (Philippines)"
+msgstr "塔加拉族文 (菲律賓)"
+
+#: inc/admin/admin-options.php:311
+msgid "Swedish (Sweden)"
+msgstr "瑞典文 (瑞典)"
+
+#: inc/admin/admin-options.php:310
+msgid "Spanish (Spain)"
+msgstr "西班牙文 (西班牙)"
+
+#: inc/admin/admin-options.php:309
+msgid "Slovenian (Slovenia)"
+msgstr "斯洛維尼亞文 (斯洛維尼亞)"
+
+#: inc/admin/admin-options.php:308
+msgid "Slovak (Slovakia)"
+msgstr "斯洛伐克文 (斯洛伐克)"
+
+#: inc/admin/admin-options.php:307
+msgid "Serbian (Bosnia and Herzegovina)"
+msgstr "塞爾維亞文 (波士尼亞與赫賽哥維納)"
+
+#: inc/admin/admin-options.php:306
+msgid "Russian (Russia)"
+msgstr "俄文 (俄國)"
+
+#: inc/admin/admin-options.php:305
+msgid "Romanian (Romania)"
+msgstr "羅馬尼亞文 (羅馬尼亞)"
+
+#: inc/admin/admin-options.php:303
+msgid "Polish (Poland)"
+msgstr "波蘭文 (波蘭)"
+
+#: inc/admin/admin-options.php:302
+msgid "Norwegian Bokmål (Norway)"
+msgstr "挪威文 (挪威)"
+
+#: inc/admin/admin-options.php:301
+msgid "Malay (Malaysia)"
+msgstr "馬來文 (馬來西亞)"
+
+#: inc/admin/admin-options.php:300
+msgid "Lithuanian (Lithuania)"
+msgstr "立陶宛文 (立陶宛)"
+
+#: inc/admin/admin-options.php:299
+msgid "Korean (Korea)"
+msgstr "韓文 (韓國)"
+
+#: inc/admin/admin-options.php:298
+msgid "Klingon (Qo’noS)"
+msgstr "克林貢文 (克羅諾斯星)"
+
+#: inc/admin/admin-options.php:297
+msgid "Japanese (Japan)"
+msgstr "日文 (日本)"
+
+#: inc/admin/admin-options.php:296
+msgid "Italian (Italy)"
+msgstr "義大利文 (義大利)"
+
+#: inc/admin/admin-options.php:295
+msgid "Indonesian (Indonesia)"
+msgstr "印尼文 (印尼)"
+
+#: inc/admin/admin-options.php:294
+msgid "Hungarian (Hungary)"
+msgstr "匈牙利文 (匈牙利)"
+
+#: inc/admin/admin-options.php:293
+msgid "Hindi (India)"
+msgstr "印度文 (印度)"
+
+#: inc/admin/admin-options.php:292
+msgid "Hebrew (Israel)"
+msgstr "希伯來文 (以色列)"
+
+#: inc/admin/admin-options.php:291
+msgid "Greek (Greece)"
+msgstr "希臘文 (希臘)"
+
+#: inc/admin/admin-options.php:290
+msgid "German (Germany)"
+msgstr "德文 (德國)"
+
+#: inc/admin/admin-options.php:289
+msgid "French (France)"
+msgstr "法文 (法國)"
+
+#: inc/admin/admin-options.php:288
+msgid "Finnish (Finland)"
+msgstr "芬蘭文 (芬蘭)"
+
+#: inc/admin/admin-options.php:287
+msgid "Farsi (Iran)"
+msgstr "波斯文 (伊朗)"
+
+#: inc/admin/admin-options.php:286
+msgid "English (United States)"
+msgstr "英文 (美國)"
+
+#: inc/admin/admin-options.php:285
+msgid "Dutch (Netherlands)"
+msgstr "荷蘭文 (荷蘭)"
+
+#: inc/admin/admin-options.php:284
+msgid "Danish (Denmark)"
+msgstr "丹麥文 (丹麥)"
+
+#: inc/admin/admin-options.php:283
+msgid "Czech (Czech Republic)"
+msgstr "捷克文 (捷克共和國)"
+
+#: inc/admin/admin-options.php:282
+msgid "Croatian (Croatia)"
+msgstr "克羅埃西亞文 (克羅埃西亞)"
+
+#: inc/admin/admin-options.php:281
+msgid "Chinese (Traditional, Taiwan)"
+msgstr "繁體中文 (台灣)"
+
+#: inc/admin/admin-options.php:280
+msgid "Chinese (Simplified, China)"
+msgstr "簡體中文 (中國)"
+
+#: inc/admin/admin-options.php:279
+msgid "Bulgarian (Bulgaria)"
+msgstr "保加利亞文 (保加利亞)"
+
+#: inc/admin/admin-options.php:278
+msgid "Arabic (Egypt)"
+msgstr "阿拉伯文 (埃及)"
+
+#: inc/admin/admin-options.php:1995
+msgid "No events logged yet."
+msgstr "尚無已記錄的事件。"
+
+#: inc/admin/admin-options.php:1986
+msgid " (Visitor submitted form when Turnstile was not successfully completed.)"
+msgstr " (網站訪客於 Turnstile 未成功完成時提交的表單)"
+
+#: inc/admin/admin-options.php:1985
+msgid "Error Codes"
+msgstr "錯誤代碼"
+
+#: inc/admin/admin-options.php:1973
+msgid "URL:"
+msgstr "網址:"
+
+#: inc/admin/admin-options.php:1972
+msgid "IP:"
+msgstr "IP 位址:"
+
+#: inc/admin/admin-options.php:1953
+msgid "Info"
+msgstr "資訊"
+
+#: inc/admin/admin-options.php:1952
+msgid "Response"
+msgstr "回應"
+
+#: inc/admin/admin-options.php:1951 inc/admin/admin-options.php:1968
+msgid "Success"
+msgstr "成功"
+
+#: inc/admin/admin-options.php:1950
+msgid "Date"
+msgstr "日期"
+
+#: inc/admin/admin-options.php:1929
+msgid "Turnstile Debug Log"
+msgstr "Turnstile 偵錯記錄"
+
+#: inc/admin/admin-options.php:1887
+msgid "Enable debug logging of Turnstile form submission events."
+msgstr "啟用 Turnstile 功能表單傳送事件偵錯資訊"
+
+#: simple-cloudflare-turnstile.php:52
+msgid "Settings"
+msgstr "設定"
+
+#: inc/wordpress.php:139
+msgid "ERROR"
+msgstr "錯誤"
+
+#: inc/integrations/forms/contact-form-7.php:101
+msgid "Insert Tag"
+msgstr "插入標籤"
+
+#: inc/integrations/forms/contact-form-7.php:91
+msgid "cloudflare turnstile"
+msgstr "Cloudflare Turnstile"
+
+#: inc/integrations/community/buddypress.php:22
+#: inc/integrations/community/buddypress.php:25
+#: inc/integrations/ecommerce/edd.php:59 inc/integrations/ecommerce/pmp.php:62
+#: inc/integrations/membership/wp-members.php:13
+#: inc/integrations/membership/wpuf.php:58 inc/wordpress.php:222
+msgid "ERROR:"
+msgstr "錯誤:"
+
+#: inc/errors.php:63
+msgid "There was an error with Turnstile response. Please check your keys are correct."
+msgstr "Cloudflare Turnstile 回應發生錯誤。請檢查金鑰是否正確。"
+
+#: inc/errors.php:61
+msgid "An internal error happened while validating the response. The request can be retried."
+msgstr "驗證回應時發生內部錯誤。請重試要求。"
+
+#: inc/errors.php:59
+msgid "The response parameter has already been validated before."
+msgstr "回應參數之前已完成驗證。"
+
+#: inc/errors.php:57
+msgid "The request was rejected because it was malformed."
+msgstr "由於格式錯誤，因此要求遭到駁回。"
+
+#: inc/errors.php:55
+msgid "The response parameter is invalid or has expired."
+msgstr "回應參數無效或已到期。"
+
+#: inc/errors.php:53
+msgid "The response parameter was not passed."
+msgstr "回應參數尚未傳遞。"
+
+#: inc/errors.php:51
+msgid "The secret parameter was invalid or did not exist."
+msgstr "祕密參數無效或不存在。"
+
+#: inc/errors.php:49
+msgid "The secret parameter was not passed."
+msgstr "祕密參數尚未傳遞。"
+
+#: inc/errors.php:36
+msgid "Please verify that you are human."
+msgstr "請證明你是真人。"
+
+#: inc/errors.php:20
+msgid "Cloudflare Turnstile is not currently showing on your forms. Please test the API response on the <a href=\"%s\">settings page</a>."
+msgstr "Cloudflare Turnstile 目前並未顯示於這個網站的功能頁面。請在<a href=\"%s\">外掛設定頁面</a>測試 API 回應。"
+
+#: inc/admin/admin-options.php:2030
+msgid "View on GitHub"
+msgstr "在 GitHub 上查看相關資訊"
+
+#: inc/admin/admin-options.php:2028
+msgid "Translate into your language"
+msgstr "將這個外掛本地化為你的母語版本"
+
+#: inc/admin/admin-options.php:2059
+msgid "Donate:"
+msgstr "贊助外掛開發:"
+
+#: inc/admin/admin-options.php:2025
+msgid "Create a support topic"
+msgstr "提出技術支援需求"
+
+#: inc/admin/admin-options.php:2025
+msgid "Need help? Have a suggestion?"
+msgstr "需要協助？想提出意見反應？"
+
+#: inc/admin/admin-options.php:1881
+msgid "Delete all of this plugins saved options when the plugin is deleted via plugins page."
+msgstr "刪除外掛時一併移除這個外掛的全部設定"
+
+#: inc/admin/admin-options.php:1864
+msgid "Simply install the plugin and new settings will appear above."
+msgstr "僅需安裝並啟用支援的外掛，便會在上方的開闔式選單中顯示對應的設定。"
+
+#: inc/admin/admin-options.php:1851
+msgid "You can also enable Turnstile on"
+msgstr "目前可以使用 Cloudflare Turnstile 人機驗證服務的項目:"
+
+#: inc/admin/admin-options.php:1848
+msgid "Other Integrations"
+msgstr "其他整合項目"
+
+#: inc/admin/admin-options.php:1831
+msgid "wpDiscuz"
+msgstr "wpDiscuz"
+
+#: inc/admin/admin-options.php:1798
+msgid "Post Forms"
+msgstr "內容表單"
+
+#: inc/admin/admin-options.php:1791
+msgid "Register Form"
+msgstr "註冊表單"
+
+#: inc/admin/admin-options.php:1786
+msgid "Edit via \"WordPress Reset Password\" option in the \"Default WordPress Forms\" settings."
+msgstr "透過 [WordPress 預設功能表單] 中的 [WordPress 重設密碼表單] 編輯"
+
+#: inc/admin/admin-options.php:1783
+msgid "Reset Password Form"
+msgstr "重設密碼表單"
+
+#: inc/admin/admin-options.php:1746 inc/admin/admin-options.php:1809
+msgid "WP User Frontend"
+msgstr "WP User Frontend"
+
+#: inc/admin/admin-options.php:1731
+msgid "Turnstile is supported for WP-Members Login and Registration forms. Enable for these forms in the \"Default WordPress Forms\" settings."
+msgstr "Turnstile 支援 WP-Members 的登入表單及註冊表單。請在 [WordPress 預設功能表單] 設定中啟用這些功能表單。"
+
+#: inc/admin/admin-options.php:1725 inc/admin/admin-options.php:1740
+msgid "WP-Members"
+msgstr "WP-Members"
+
+#: inc/admin/admin-options.php:1709
+msgid "(Optional) One per line. For Membership products that are not on this list, no Turnstile challenge will be loaded or enforced."
+msgstr "(選用) 每行一個會員資格商品。不在這份清單中的會員資格商品，便不會載入或強制進行 Turnstile 驗證。"
+
+#: inc/admin/admin-options.php:1706
+msgid "ONLY enable for these Membership IDs:"
+msgstr "僅為指定會員資格 ID 啟用:"
+
+#: inc/admin/admin-options.php:1697
+msgid "Limited to:"
+msgstr "限制目標:"
+
+#: inc/admin/admin-options.php:1694
+msgid "Registration/Checkout Forms"
+msgstr "註冊/結帳表單"
+
+#: inc/admin/admin-options.php:1668 inc/admin/admin-options.php:1719
+msgid "MemberPress"
+msgstr "MemberPress"
+
+#: inc/admin/admin-options.php:1645
+msgid "UM Password Reset Form"
+msgstr "Ultimate Member 重設密碼表單"
+
+#: inc/admin/admin-options.php:1638
+msgid "UM Register Form"
+msgstr "Ultimate Member 註冊表單"
+
+#: inc/admin/admin-options.php:1631
+msgid "UM Login Form"
+msgstr "Ultimate Member 登入表單"
+
+#: inc/admin/admin-options.php:1624 inc/admin/admin-options.php:1656
+msgid "Ultimate Member"
+msgstr "Ultimate Member"
+
+#: inc/admin/admin-options.php:1607
+msgid "Guest Users Only"
+msgstr "僅限訪客使用者"
+
+#: inc/admin/admin-options.php:1599
+msgid "Right"
+msgstr "靠右對齊"
+
+#: inc/admin/admin-options.php:1596
+msgid "Left"
+msgstr "靠左對齊"
+
+#: inc/admin/admin-options.php:1592
+msgid "Alignment"
+msgstr "對齊方式"
+
+#: inc/admin/admin-options.php:1586
+msgid "bbPress Reply"
+msgstr "bbPress 回覆表單"
+
+#: inc/admin/admin-options.php:1579
+msgid "bbPress Create Topic"
+msgstr "bbPress 建立主題表單"
+
+#: inc/admin/admin-options.php:1572 inc/admin/admin-options.php:1618
+msgid "bbPress"
+msgstr "bbPress"
+
+#: inc/admin/admin-options.php:1556
+msgid "BuddyPress Register"
+msgstr "BuddyPress 註冊表單"
+
+#: inc/admin/admin-options.php:1549 inc/admin/admin-options.php:1566
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: inc/admin/admin-options.php:1492
+msgid "Mailchimp for WordPress"
+msgstr "Mailchimp for WordPress"
+
+#: inc/admin/admin-options.php:1486
+msgid "To add Turnstile to Mailchimp for WordPress, simply add this shortcode to any of your forms (in the form editor):"
+msgstr "如需將 Cloudflare Turnstile 的人機驗證功能加入 Mailchimp for WordPress 中，請使用表單編輯器將短代碼加入需要這個功能的聯絡表單。"
+
+#: inc/admin/admin-options.php:1483
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr "MC4WP: Mailchimp for WordPress"
+
+#: inc/admin/admin-options.php:1397
+msgid "After Form"
+msgstr "表單下方"
+
+#: inc/admin/admin-options.php:1382
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with Elementor Pro Forms."
+msgstr "啟用這項設定後，Cloudflare Turnstile 人機驗證功能便會顯示於全部 Elementor Pro 聯絡表單的提交按鈕上方。"
+
+#: inc/admin/admin-options.php:1375
+msgid "Enable on all Elementor Forms"
+msgstr "在全部 Elementor Forms 聯絡表單中啟用"
+
+#: inc/admin/admin-options.php:1368 inc/admin/admin-options.php:1477
+msgid "Elementor Forms"
+msgstr "Elementor Forms 聯絡表單"
+
+#: inc/admin/admin-options.php:1358
+msgid "Currently Ninja Forms is not supported by this plugin."
+msgstr "這個外掛目前不支援 Ninja Forms。"
+
+#: inc/admin/admin-options.php:1354
+msgid "Ninja Forms"
+msgstr "Ninja Forms"
+
+#: inc/admin/admin-options.php:1344
+msgid "Click here for more information."
+msgstr "點擊這裡以進一步了解"
+
+#: inc/admin/admin-options.php:1343
+msgid "Currently WS Form is not supported by this plugin, however their plugin does have its own Turnstile addon."
+msgstr "這個外掛目前不支援 WS Form，但是他們的外掛有專屬的 Turnstile 附加元件。"
+
+#: inc/admin/admin-options.php:1339
+msgid "WS Form"
+msgstr "WS Form"
+
+#: inc/admin/admin-options.php:1333
+msgid "Forminator"
+msgstr "Forminator"
+
+#: inc/admin/admin-options.php:1297
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with Forminator Forms."
+msgstr "啟用這項設定後，Cloudflare Turnstile 人機驗證功能便會顯示於全部 Forminator Forms 聯絡表單的提交按鈕上方。"
+
+#: inc/admin/admin-options.php:1290
+msgid "Enable on all Forminator Forms"
+msgstr "在全部 Forminator Forms 聯絡表單中啟用"
+
+#: inc/admin/admin-options.php:1283
+msgid "Forminator Forms"
+msgstr "Forminator Forms"
+
+#: inc/admin/admin-options.php:1277
+msgid "Formidable"
+msgstr "Formidable"
+
+#: inc/admin/admin-options.php:1241
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with Formidable Forms."
+msgstr "啟用這項設定後，Cloudflare Turnstile 人機驗證功能便會顯示於全部 Formidable Forms 聯絡表單的提交按鈕上方。"
+
+#: inc/admin/admin-options.php:1234
+msgid "Enable on all Formidable Forms"
+msgstr "在全部 Formidable Forms 聯絡表單中啟用"
+
+#: inc/admin/admin-options.php:1227
+msgid "Formidable Forms"
+msgstr "Formidable Forms"
+
+#: inc/admin/admin-options.php:1177
+msgid "When enabled, Turnstile will be added above the submit button, on ALL your forms created with Fluent Forms."
+msgstr "啟用這項設定後，Cloudflare Turnstile 人機驗證功能便會顯示於全部 Fluent Forms 聯絡表單的提交按鈕上方。"
+
+#: inc/admin/admin-options.php:1170
+msgid "Enable on all Fluent Forms"
+msgstr "在全部 Fluent Forms 聯絡表單中啟用"
+
+#: inc/admin/admin-options.php:1163 inc/admin/admin-options.php:1196
+msgid "Fluent Forms"
+msgstr "Fluent Forms"
+
+#: inc/admin/admin-options.php:1121
+msgid "When enabled, Turnstile will be added before/after the submit button, on ALL your forms created with Gravity Forms."
+msgstr "啟用這項設定後，Cloudflare Turnstile 人機驗證功能便會顯示於全部 Gravity Forms 聯絡表單的提交按鈕前方/後方。"
+
+#: inc/admin/admin-options.php:1114
+msgid "Enable on all Gravity Forms"
+msgstr "在全部 Gravity Forms 聯絡表單中啟用"
+
+#: inc/admin/admin-options.php:1107 inc/admin/admin-options.php:1157
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: inc/admin/admin-options.php:1095 inc/admin/admin-options.php:1151
+#: inc/admin/admin-options.php:1189 inc/admin/admin-options.php:1271
+#: inc/admin/admin-options.php:1327
+msgid "Separate each ID with a comma, for example: 5,10"
+msgstr "請以逗號分隔多個 ID。範例: 5,10"
+
+#: inc/admin/admin-options.php:1094 inc/admin/admin-options.php:1150
+#: inc/admin/admin-options.php:1188 inc/admin/admin-options.php:1270
+#: inc/admin/admin-options.php:1326
+msgid "If you want to DISABLE the Turnstile widget on certain forms, enter the %s ID in this field."
+msgstr "如果需要在指定功能表單停用 Cloudflare Turnstile 小工具，請在這個欄位輸入 %s 的表單 ID。"
+
+#: inc/admin/admin-options.php:1087 inc/admin/admin-options.php:1143
+#: inc/admin/admin-options.php:1181 inc/admin/admin-options.php:1263
+#: inc/admin/admin-options.php:1319
+msgid "Disabled Form IDs"
+msgstr "停用表單 ID"
+
+#: inc/admin/admin-options.php:1077 inc/admin/admin-options.php:1133
+#: inc/admin/admin-options.php:1253 inc/admin/admin-options.php:1309
+#: inc/admin/admin-options.php:1394
+msgid "After Button"
+msgstr "按鈕下方"
+
+#: inc/admin/admin-options.php:1074 inc/admin/admin-options.php:1130
+#: inc/admin/admin-options.php:1250 inc/admin/admin-options.php:1306
+#: inc/admin/admin-options.php:1391
+msgid "Before Button"
+msgstr "按鈕上方"
+
+#: inc/admin/admin-options.php:1065
+msgid "Note: WPForms has an option to configure Turnstile on its own Settings page \"CAPTCHA\" tab. You should only enable it in one place, either here -OR- in those settings."
+msgstr "注意事項: WPForms 在其外掛設定頁面的 [CAPTCHA] 分頁，有可以為 Turnstile 進行組態的選項。相關設定僅能在同一處啟用，請在這裡啟用，或在 WPForms 設定中啟用。"
+
+#: inc/admin/admin-options.php:1064
+msgid "When enabled, Turnstile will be added before/after the submit button, on ALL your forms created with WPForms."
+msgstr "啟用這項設定後，Cloudflare Turnstile 人機驗證功能便會顯示於全部 WPForms 聯絡表單的提交按鈕前方/後方。"
+
+#: inc/admin/admin-options.php:1057
+msgid "Enable on all WPForms"
+msgstr "在全部 WPForms 聯絡表單中啟用"
+
+#: inc/admin/admin-options.php:1050 inc/admin/admin-options.php:1101
+msgid "WPForms"
+msgstr "WPForms"
+
+#: inc/admin/admin-options.php:1038
+msgid "To add Turnstile to individual Contact Form 7 forms, simply add this shortcode to any of your forms (in the form editor):"
+msgstr "如需將 Cloudflare Turnstile 的人機驗證功能加入 Contact Form 7 的個別聯絡表單中，請使用表單編輯器將以下短代碼加入需要這個功能的聯絡表單。"
+
+#: inc/admin/admin-options.php:1029
+msgid "Enable on all CF7 Forms"
+msgstr "在全部 Contact Form 7 聯絡表單中啟用"
+
+#: inc/admin/admin-options.php:1022 inc/admin/admin-options.php:1044
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/admin/admin-options.php:1016
+msgid "Paid Memberships PRO"
+msgstr "Paid Memberships Pro"
+
+#: inc/admin/admin-options.php:987 inc/admin/admin-options.php:995
+msgid "Currently Turnstile can not be implemented on the lost password form when PMP is installed."
+msgstr "請注意，安裝 Paid Memberships Pro 後，便無法在忘記密碼表單使用 Turnstile 人機驗證。"
+
+#: inc/admin/admin-options.php:984
+msgid "Lost Password Form"
+msgstr "忘記密碼表單"
+
+#: inc/admin/admin-options.php:978 inc/admin/admin-options.php:1689
+#: inc/admin/admin-options.php:1767
+msgid "Edit via \"WordPress Login\" option in the \"Default WordPress Forms\" settings."
+msgstr "透過 [WordPress 預設功能表單] 中的 [WordPress 登入表單] 編輯"
+
+#: inc/admin/admin-options.php:975 inc/admin/admin-options.php:1686
+#: inc/admin/admin-options.php:1764
+msgid "Login Form"
+msgstr "登入表單"
+
+#: inc/admin/admin-options.php:951
+msgid "Checkout / Registration"
+msgstr "結帳/註冊表單"
+
+#: inc/admin/admin-options.php:944
+msgid "Paid Memberships Pro"
+msgstr "Paid Memberships Pro"
+
+#: inc/admin/admin-options.php:928
+msgid "EDD Register"
+msgstr "Easy Digital Downloads 註冊表單"
+
+#: inc/admin/admin-options.php:921
+msgid "EDD Login"
+msgstr "Easy Digital Downloads 登入表單"
+
+#: inc/admin/admin-options.php:908
+msgid "EDD Checkout"
+msgstr "Easy Digital Downloads 結帳表單"
+
+#: inc/admin/admin-options.php:901 inc/admin/admin-options.php:938
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads"
+
+#: inc/admin/admin-options.php:895
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/admin-options.php:825
+msgid "If selected below, Turnstile check will not be run for that specific payment method."
+msgstr "如果選取了所列項目，Turnstile 便不會在指定付款方法執行驗證。"
+
+#: inc/admin/admin-options.php:811
+msgid "Payment Methods to Skip"
+msgstr "要略過的付款方式"
+
+#: inc/admin/admin-options.php:779
+msgid "WooCommerce Pay for Order"
+msgstr "WooCommerce 前往付款"
+
+#: inc/admin/admin-options.php:771
+msgid "After Billing"
+msgstr "帳單下方"
+
+#: inc/admin/admin-options.php:768
+msgid "Before Billing"
+msgstr "帳單上方"
+
+#: inc/admin/admin-options.php:765
+msgid "Before Pay Button"
+msgstr "付款按鈕上方"
+
+#: inc/admin/admin-options.php:762
+msgid "After Payment"
+msgstr "付款之後"
+
+#: inc/admin/admin-options.php:759
+msgid "Before Payment"
+msgstr "付款之前"
+
+#: inc/admin/admin-options.php:749 inc/admin/admin-options.php:1070
+#: inc/admin/admin-options.php:1126 inc/admin/admin-options.php:1246
+#: inc/admin/admin-options.php:1302 inc/admin/admin-options.php:1387
+msgid "Widget Location"
+msgstr "小工具位置"
+
+#: inc/admin/admin-options.php:747 inc/admin/admin-options.php:910
+#: inc/admin/admin-options.php:953
+msgid "Guest Checkout Only"
+msgstr "僅訪客結帳"
+
+#: inc/admin/admin-options.php:745
+msgid "WooCommerce Checkout"
+msgstr "WooCommerce 結帳表單"
+
+#: inc/admin/admin-options.php:738
+msgid "WooCommerce Reset Password"
+msgstr "WooCommerce 重設密碼表單"
+
+#: inc/admin/admin-options.php:731
+msgid "WooCommerce Register"
+msgstr "WooCommerce 註冊表單"
+
+#: inc/admin/admin-options.php:724
+msgid "WooCommerce Login"
+msgstr "WooCommerce 登入表單"
+
+#: inc/admin/admin-options.php:717
+msgid "WooCommerce Forms"
+msgstr "WooCommerce 功能表單"
+
+#: inc/admin/admin-options.php:696
+msgid "Compatible with wpDiscuz!"
+msgstr "與 wpDiscuz 相容！"
+
+#: inc/admin/admin-options.php:693
+msgid "Due to Jetpack limitations, this does NOT currently work with Jetpack comments form enabled."
+msgstr "由於 Jetpack 的限制，這個功能無法在 Jetpack 留言表單中使用。"
+
+#: inc/admin/admin-options.php:682
+msgid "AJAX comments form?"
+msgstr "使用 AJAX 留言表單"
+
+#: inc/admin/admin-options.php:680
+msgid "Enable this if you are using an AJAX based comments form plugin or theme."
+msgstr "如果這個網站使用包含 AJAX 留言表單功能的外掛或佈景主題，請啟用這個功能。"
+
+#: inc/admin/admin-options.php:679
+msgid "WordPress Comment"
+msgstr "WordPress 留言表單"
+
+#: inc/admin/admin-options.php:672
+msgid "WordPress Reset Password"
+msgstr "WordPress 重設密碼表單"
+
+#: inc/admin/admin-options.php:652
+msgid "Enable this option to only enable on default WordPress register form at wp-login.php?action=register"
+msgstr "啟用這項設定後，Turnstile 僅會在 WordPress 預設註冊表單 wp-login.php?action=register 上執行"
+
+#: inc/admin/admin-options.php:651
+msgid "WordPress Register"
+msgstr "WordPress 註冊表單"
+
+#: inc/admin/admin-options.php:633 inc/admin/admin-options.php:654
+msgid "Only enable on default wp-login.php page"
+msgstr "僅於預設的 wp-login.php 頁面啟用"
+
+#: inc/admin/admin-options.php:631
+msgid "Enable this option to only enable on default WordPress login form at wp-login.php"
+msgstr "啟用這項設定後，Turnstile 僅會在 WordPress 預設登入表單 wp-login.php 上執行"
+
+#: inc/admin/admin-options.php:630
+msgid "WordPress Login"
+msgstr "WordPress 登入表單"
+
+#: inc/admin/admin-options.php:623
+msgid "Default WordPress Forms"
+msgstr "WordPress 預設功能表單"
+
+#: inc/admin/admin-options.php:616
+msgid "Select the dropdown for each integration, and choose when specific forms you want to enable Turnstile on."
+msgstr "請開啟每一個整合項目的開闔式選單，並依據需求選取要啟用 Cloudflare Turnstile 人機驗證功能的功能表單。"
+
+#: inc/admin/admin-options.php:615
+msgid "Enable Turnstile on your forms:"
+msgstr "依需求啟用 Cloudflare Turnstile 人機驗證"
+
+#: inc/admin/admin-options.php:536
+msgid "One per line.  All visitors with listed User Agents will not see the Turnstile challenge. Warning: If an attacker knows one of the whitelisted User Agents, they might be able to spoof that User Agent to bypass Turnstile."
+msgstr "每行一個使用者代理程式。透過允許的使用者代理程式存取網站的使用者，不會需要進行 Turnstile 驗證。請注意，如果惡意第三方知道這個網站允許的使用者代理程式，便可輕鬆避開 Turnstile 驗證。"
+
+#: inc/admin/admin-options.php:533
+msgid "User Agents"
+msgstr "使用者代理程式"
+
+#: inc/admin/admin-options.php:528
+msgid "One per line. Wildcards are not supported. All visitors with listed IP addresses will not see the Turnstile challenge. Warning: If an attacker knows one of the whitelisted IP addresses, they might be able to spoof that address to bypass Turnstile."
+msgstr "每行一個 IP 位址，不支援萬用字元。透過允許的 IP 位址存取網站的使用者，不會需要進行 Turnstile 驗證。請注意，如果惡意第三方知道這個網站允許的 IP 位址，便可輕鬆避開 Turnstile 驗證。"
+
+#: inc/admin/admin-options.php:525
+msgid "IP Addresses"
+msgstr "IP 位址"
+
+#: inc/admin/admin-options.php:520
+msgid "When enabled, logged in users will not see the Turnstile challenge."
+msgstr "啟用這項設定後，已登入的使用者不會再需要進行 Turnstile 驗證"
+
+#: inc/admin/admin-options.php:517
+msgid "Logged In Users"
+msgstr "登入的使用者"
+
+#: inc/admin/admin-options.php:510
+msgid "Whitelist Settings"
+msgstr "允許清單設定"
+
+#: inc/admin/admin-options.php:468
+msgid "Currently it is not possible to edit the actual \"Failure!\" message shown on the widget."
+msgstr "目前無法編輯小工具發生驗證失敗時顯示的訊息。"
+
+#: inc/admin/admin-options.php:466
+msgid "This will show a message below the Turnstile widget if they receive the \"Failure!\" response. Useful to give instructions in the *very rare* case a valid user is being flagged as spam."
+msgstr "如果使用者收到「驗證失敗」的回應，這個訊息便會顯示於 Turnstile 小工具下方。這對「有效的使用者遭到標記為濫用」這種非常罕見的狀況提供說明相當實用。"
+
+#: inc/admin/admin-options.php:465 inc/turnstile.php:137
+msgid "Failed to verify you are human. Please contact us if you are having issues."
+msgstr "無法驗證你是真人。如果持續發生問題，請與我們聯絡。"
+
+#: inc/admin/admin-options.php:460
+msgid "HTML Markup Allowed."
+msgstr "允許使用 HTML 標籤。"
+
+#: inc/admin/admin-options.php:451
+msgid "Extra Failure Message"
+msgstr "額外的驗證失敗訊息"
+
+#: inc/admin/admin-options.php:445
+msgid "Shown if the form is submitted without completing the Turnstile challenge. Leave blank to use the default message (localized):"
+msgstr "如果未完成 Turnstile 驗證便傳送表單，就會顯示這個訊息。欄位留空代表使用預設訊息 (如果支援的話，會以當地語系顯示):"
+
+#: inc/admin/admin-options.php:440
+msgid "Custom Error Message"
+msgstr "自訂錯誤訊息"
+
+#: inc/admin/admin-options.php:483
+msgid "When enabled, the javascript files loaded by the plugin will be deferred. You can disable this if it causes any issues with your other optimisations."
+msgstr "啟用這項設定後，會延遲由這個外掛所載入的 JavaScript 檔案。如果這項設定會對這個網站的其他最佳化產生問題，網站管理員可以停用這項設定。"
+
+#: inc/admin/admin-options.php:480
+msgid "Defer Scripts"
+msgstr "延遲指令碼"
+
+#: inc/admin/admin-options.php:351
+msgid "These settings are for more advanced customisation. If you are not sure about these, they do not need to be changed."
+msgstr "這些設定提供更進階的自訂項目。如果不清楚這些設定的意義，請不要進行任何變更。"
+
+#: inc/admin/admin-options.php:347
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+#: inc/admin/admin-options.php:341
+msgid "When enabled, the user will not be able to click submit until the Turnstile challenge is completed."
+msgstr "啟用這項設定後，使用者必須完成 Turnstile 驗證才能點擊 [提交] 按鈕"
+
+#: inc/admin/admin-options.php:338
+msgid "Disable Submit Button"
+msgstr "停用 [提交] 按鈕"
+
+#: inc/admin/admin-options.php:403
+msgid "Turnstile Widget is only displayed in cases where an interaction is required. This essentially makes it \"invisible\" for most valid users."
+msgstr "Turnstile 小工具僅在需要進行互動時顯示。這對大多數的真人網站訪客來說，這個小工具為「不可見」的狀態。"
+
+#: inc/admin/admin-options.php:402
+msgid "Turnstile Widget is only displayed after the challenge begins."
+msgstr "Turnstile 小工具僅在需要驗證時顯示。"
+
+#: inc/admin/admin-options.php:401
+msgid "Turnstile Widget is always displayed for all visitors."
+msgstr "Turnstile 小工具會永遠向全部網站訪客顯示。"
+
+#: inc/admin/admin-options.php:387
+msgid "Interaction Only"
+msgstr "僅互動時顯示"
+
+#: inc/admin/admin-options.php:385
+msgid "Always"
+msgstr "永遠顯示"
+
+#: inc/admin/admin-options.php:380
+msgid "Appearance Mode"
+msgstr "顯示模式"
+
+#: inc/admin/admin-options.php:304
+msgid "Portuguese (Brazil)"
+msgstr "葡萄牙文 (巴西)"
+
+#: inc/admin/admin-options.php:277
+msgid "Auto Detect"
+msgstr "自動偵測"
+
+#: inc/admin/admin-options.php:272
+msgid "Language"
+msgstr "服務徽章語言"
+
+#: inc/admin/admin-options.php:265
+msgid "Auto"
+msgstr "自動切換"
+
+#: inc/admin/admin-options.php:262
+msgid "Dark"
+msgstr "深色"
+
+#: inc/admin/admin-options.php:259
+msgid "Light"
+msgstr "淺色"
+
+#: inc/admin/admin-options.php:255
+msgid "Theme"
+msgstr "外觀樣式"
+
+#: inc/admin/admin-options.php:251
+msgid "General Settings:"
+msgstr "一般設定"
+
+#: inc/admin/admin-options.php:157 inc/admin/admin-options.php:194
+msgid "Secret Key"
+msgstr "秘密金鑰"
+
+#: inc/admin/admin-options.php:156 inc/admin/admin-options.php:176
+msgid "Site Key"
+msgstr "網站金鑰"
+
+#: inc/admin/admin-options.php:151
+msgid "You can get your site key and secret key from here:"
+msgstr "請前往所列連結取得專屬網站金鑰及秘密金鑰:"
+
+#: inc/admin/admin-options.php:146
+msgid "Success! Turnstile is working correctly with your API keys."
+msgstr "測試成功！Cloudflare Turnstile 人機驗證功能可以使用目前的 API 金鑰正確執行。"
+
+#: inc/admin/admin-options.php:135
+msgid "API Key Settings:"
+msgstr "API 金鑰設定"
+
+#: inc/admin/admin-options.php:110
+msgid "Please submit a review"
+msgstr "請撰寫使用者評論"
+
+#: inc/admin/admin-options.php:110
+msgid "Review on WordPress.org"
+msgstr "在 WordPress.org 上撰寫評等"
+
+#: inc/admin/admin-options.php:110
+msgid "Like this plugin?"
+msgstr "喜歡這個外掛嗎？"
+
+#: inc/admin/admin-options.php:110 inc/admin/admin-options.php:2022
+msgid "View setup guide"
+msgstr "查看設定指南"
+
+#: inc/admin/admin-options.php:105
+msgid "Learn more."
+msgstr "進一步了解"
+
+#: inc/admin/admin-options.php:105
+msgid "Easily add the free CAPTCHA service called \"Cloudflare Turnstile\" to your WordPress forms to help prevent spam."
+msgstr "輕鬆將免費的 Cloudflare Turnstile 人機驗證功能加入 WordPress，以避免各式功能表單遭到濫用。"
+
+#: inc/admin/admin-options.php:66
+msgid "TEST RESPONSE"
+msgstr "測試回應"
+
+#: inc/admin/admin-options.php:58
+msgid "Error message:"
+msgstr "錯誤訊息:"
+
+#: inc/admin/admin-options.php:54
+msgid "Failed! There is an error with your API settings. Please check & update them."
+msgstr "測試失敗！API 設定發生錯誤。請檢查相關設定並做出正確變更。"
+
+#: inc/admin/admin-options.php:45
+msgid "Turnstile will not be added to any forms until the test is successfully complete."
+msgstr "在測試成功前，外掛無法將 Cloudflare Turnstile 人機驗證功能加入至任何功能表單。"
+
+#: inc/admin/admin-options.php:43
+msgid "API keys have been updated. Please test the Turnstile API response below."
+msgstr "API 金鑰已更新。請在下方測試 Turnstile API 的回應。"
+
+#: inc/admin/admin-options.php:39
+msgid "Almost done..."
+msgstr "即將完成..."
+
+#. Author URI of the plugin
+#: simple-cloudflare-turnstile.php
+msgid "https://www.relywp.com"
+msgstr "https://www.relywp.com"
+
+#. Author of the plugin
+#: simple-cloudflare-turnstile.php
+msgid "Elliot Sowersby, RelyWP"
+msgstr "Elliot Sowersby、RelyWP"
+
+#. Description of the plugin
+#: simple-cloudflare-turnstile.php
+msgid "Easily add Cloudflare Turnstile to your WordPress forms. The user-friendly, privacy-preserving CAPTCHA alternative."
+msgstr "將 Cloudflare Turnstile 人機驗證功能加入 WordPress、WooCommerce、各式聯絡表單等的功能表單中，是方便使用、具備隱私保護、完全免費的 reCAPTCHA 替代解決方案。"
