@@ -9,7 +9,7 @@
 // =================================================================
 define( 'DB_NAME',     getenv('WORDPRESS_DB_NAME') ?: 'wordpress' );
 define( 'DB_USER',     getenv('WORDPRESS_DB_USER') ?: 'root' );
-define( 'DB_PASSWORD', 'INTENTIONAL_ERROR_PASSWORD_WRONG' ); // ⚠️ 人為製造錯誤：錯誤的密碼
+define( 'DB_PASSWORD', getenv('WORDPRESS_DB_PASSWORD') ?: 'rootpassword' );
 define( 'DB_HOST',     getenv('WORDPRESS_DB_HOST') ?: 'db' );
 define( 'DB_CHARSET',  'utf8mb4' );
 define( 'DB_COLLATE',  '' );
