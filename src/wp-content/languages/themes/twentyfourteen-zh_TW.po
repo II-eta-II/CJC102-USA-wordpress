@@ -1,0 +1,621 @@
+# Translation of Themes - Twenty Fourteen in Chinese (Taiwan)
+# This file is distributed under the same license as the Themes - Twenty Fourteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-06 06:11:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Themes - Twenty Fourteen\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier."
+msgstr "2014 年推出的預設佈景主題 Twenty Fourteen，讓大家可以輕鬆建立一個具備時尚現代設計的回應式雜誌風格網站。使用者可以將精選內容以格狀或輪播方式顯示於首頁，還可以使用 3 個小工具區域自訂網站，並將網站的版面配置變更為 Full Width Page 範本，以及透過 Contributor Page 範本展示網站的作者群。使用 WordPress 建立一個雜誌風格網站，從未如此簡單。"
+
+#. Theme Name of the theme
+#: style.css inc/block-patterns.php:20 inc/customizer.php:162
+#, gp-priority: high
+msgid "Twenty Fourteen"
+msgstr "Twenty Fourteen"
+
+#: inc/block-patterns.php:69
+msgid "GET IN TOUCH"
+msgstr "保持聯絡"
+
+#: inc/block-patterns.php:69
+msgid "Don’t hesitate to reach out."
+msgstr "請隨時與我聯絡。"
+
+#: inc/block-patterns.php:69
+msgid "GOT A QUESTION?"
+msgstr "是否想提出問題？"
+
+#: inc/block-patterns.php:69
+msgid "Write title…"
+msgstr "撰寫標題..."
+
+#: inc/block-patterns.php:66
+msgid "Contact"
+msgstr "聯絡方式"
+
+#: inc/block-patterns.php:58
+msgid "Read More"
+msgstr "閱讀全文"
+
+#: inc/block-patterns.php:58
+msgid "Clouds"
+msgstr "雲霧環繞"
+
+#: inc/block-patterns.php:58
+msgid "Photo of a cloudy mountain"
+msgstr "雲霧環繞的山的照片"
+
+#: inc/block-patterns.php:58
+msgid "Streetscape"
+msgstr "街景"
+
+#: inc/block-patterns.php:58
+msgid "Photo of a streetscape"
+msgstr "街景的照片"
+
+#: inc/block-patterns.php:58
+msgid "Bridge"
+msgstr "橋樑"
+
+#: inc/block-patterns.php:58
+msgid "Photo of a bridge"
+msgstr "橋樑的照片"
+
+#: inc/block-patterns.php:58
+msgid "Sunset"
+msgstr "日落"
+
+#: inc/block-patterns.php:58
+msgid "Photo of a sunset"
+msgstr "日落的照片"
+
+#: inc/block-patterns.php:58
+msgid "Here are some photos from my all-time favorite destinations."
+msgstr "我精選了在所有旅程中最愛的旅行地點的照片。"
+
+#: inc/block-patterns.php:58
+msgid "Traveling Nostalgia"
+msgstr "念念不忘的地點"
+
+#: inc/block-patterns.php:55
+msgid "Summary"
+msgstr "摘要"
+
+#: inc/block-patterns.php:47
+msgid "This year was devoted entirely to the western hemisphere. I went on a month-long road trip through the U.S.A. and Canada, and also visited Mexico, Brazil, and Colombia."
+msgstr "這年完全聚焦在西半球，並在美國及加拿大進行了為期一個月的公路旅行，之後也造訪了墨西哥、巴西及哥倫比亞。"
+
+#: inc/block-patterns.php:47
+msgid "2016"
+msgstr "2016 年"
+
+#: inc/block-patterns.php:47
+msgid "In 2012, I expanded my travels to Europe. I spent time in Poland, Germany, Italy, France, and Spain."
+msgstr "在 2012 年，我將旅行地點擴展到歐洲，並在波蘭、德國、義大利、法國及西班牙度過一段時光。"
+
+#: inc/block-patterns.php:47
+msgid "2012"
+msgstr "2012 年"
+
+#: inc/block-patterns.php:47
+msgid "My first year of traveling. I visited China, Thailand, Japan, and India."
+msgstr "第一次出遊的年份，造訪了台灣、泰國、日本及印度。"
+
+#: inc/block-patterns.php:47
+msgid "2001"
+msgstr "2001 年"
+
+#: inc/block-patterns.php:44
+msgid "List"
+msgstr "清單"
+
+#: inc/block-patterns.php:36
+msgid "I’ve traveled to over 60 countries, and have made many friends along the way. I created this website to keep track of the memories I’ve made in my years of traveling."
+msgstr "目前行跡已超過 60 餘國，並且在旅途認識了許多朋友。建立這個網站是為了為這麼多年的旅遊記錄當中美好的回憶。"
+
+#: inc/block-patterns.php:36
+msgid "Hello, my name is Joan. I am passionate about writing, travel, and photography."
+msgstr "大家好，我是瓊安，對寫作、旅行及攝影充滿熱情。"
+
+#: inc/block-patterns.php:36
+msgid "A person standing in front of a lake"
+msgstr "站在湖邊的人"
+
+#: inc/block-patterns.php:33
+msgid "About"
+msgstr "自我介紹"
+
+#: functions.php:127
+msgid "White"
+msgstr "白色"
+
+#: functions.php:122
+msgid "Light Gray"
+msgstr "淺灰色"
+
+#: functions.php:117
+msgid "Medium Gray"
+msgstr "中灰色"
+
+#: functions.php:112
+msgid "Dark Gray"
+msgstr "深灰色"
+
+#: functions.php:107
+msgid "Black"
+msgstr "黑色"
+
+#: functions.php:102
+msgid "Green"
+msgstr "綠色"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:34
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "在〈%2$s〉中有 %1$s 則留言"
+
+#. translators: %s: Post title.
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "在〈%s〉中有 1 則留言"
+
+#. Template Name of the theme
+msgid "Full Width Page"
+msgstr "全幅寬度頁面"
+
+#. Template Name of the theme
+msgid "Contributor Page"
+msgstr "投稿者頁面"
+
+#. translators: %s: Tag title.
+#: tag.php:25
+msgid "Tag Archives: %s"
+msgstr "標籤彙整: %s"
+
+#. translators: %s: Search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "「%s」的搜尋結果"
+
+#: inc/widgets.php:304
+msgid "Post format to show:"
+msgstr "要顯示的文章格式:"
+
+#: inc/widgets.php:301
+msgid "Number of posts to show:"
+msgstr "文章顯示數量:"
+
+#: inc/widgets.php:298
+msgid "Title:"
+msgstr "標題:"
+
+#. translators: Used with More archives link.
+#: inc/widgets.php:242
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: 1: Post permalink, 2: Number of images in the gallery.
+#: inc/widgets.php:197
+msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgid_plural "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
+msgstr[0] "這個圖庫包含 <a href=\"%1$s\" rel=\"bookmark\">%2$s 張圖片</a>。"
+
+#: inc/widgets.php:157 inc/widgets.php:207
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "閱讀全文 <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/widgets.php:107
+msgid "More asides"
+msgstr "更多記事"
+
+#: inc/widgets.php:106 taxonomy-post_format.php:30
+msgid "Asides"
+msgstr "記事"
+
+#: inc/widgets.php:102
+msgid "More galleries"
+msgstr "更多圖庫"
+
+#: inc/widgets.php:101 taxonomy-post_format.php:48
+msgid "Galleries"
+msgstr "圖庫"
+
+#: inc/widgets.php:98
+msgid "More links"
+msgstr "更多連結"
+
+#: inc/widgets.php:97 taxonomy-post_format.php:45
+msgid "Links"
+msgstr "連結"
+
+#: inc/widgets.php:94
+msgid "More quotes"
+msgstr "更多引文"
+
+#: inc/widgets.php:93 taxonomy-post_format.php:42
+msgid "Quotes"
+msgstr "引文"
+
+#: inc/widgets.php:90
+msgid "More audio"
+msgstr "更多音訊"
+
+#: inc/widgets.php:89 taxonomy-post_format.php:39
+msgid "Audio"
+msgstr "音訊"
+
+#: inc/widgets.php:86
+msgid "More videos"
+msgstr "更多視訊"
+
+#: inc/widgets.php:85 taxonomy-post_format.php:36
+msgid "Videos"
+msgstr "視訊"
+
+#: inc/widgets.php:82
+msgid "More images"
+msgstr "更多圖片"
+
+#: inc/widgets.php:81 taxonomy-post_format.php:33
+msgid "Images"
+msgstr "圖片"
+
+#: inc/widgets.php:37
+msgid "Use this widget to list your recent Aside, Quote, Video, Audio, Image, Gallery, and Link posts."
+msgstr "使用這個小工具便能列出文章格式為記事、引文、視訊、音訊、圖片、圖庫及連結的最近文章。"
+
+#: inc/widgets.php:34
+msgid "Twenty Fourteen Ephemera"
+msgstr "Twenty Fourteen 小品內容"
+
+#: inc/template-tags.php:121
+msgid "Sticky"
+msgstr "置頂文章"
+
+#: inc/template-tags.php:104
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr "<span class=\"meta-nav\">下一篇文章</span>%title"
+
+#: inc/template-tags.php:103
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr "<span class=\"meta-nav\">上一篇文章</span>%title"
+
+#: inc/template-tags.php:101
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr "<span class=\"meta-nav\">關聯內容</span>%title"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:95
+msgid "Post navigation"
+msgstr "文章導覽"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:63
+msgid "Posts navigation"
+msgstr "文章導覽"
+
+#: inc/template-tags.php:52
+msgid "Next &rarr;"
+msgstr "下一頁 &rarr;"
+
+#: inc/template-tags.php:51
+msgid "&larr; Previous"
+msgstr "&larr; 上一頁"
+
+#: inc/featured-content.php:424
+msgid "Don&rsquo;t display tag on front end."
+msgstr "不要在網站前端顯示標籤"
+
+#: inc/featured-content.php:416
+msgid "Tag Name"
+msgstr "標籤名稱"
+
+#. translators: %s: Twenty Fourteen documentation URL.
+#: inc/customizer.php:170
+msgid "For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s\">Twenty Fourteen documentation</a>."
+msgstr "如需進一步的教學課程、更多秘訣和訣竅，請參閱 <a href=\"%s\" target=\"_blank\">Twenty Fourteen</a> 線上說明。"
+
+#. translators: %s: Featured images documentation URL.
+#: inc/customizer.php:168
+msgid "Enhance your site design by using <a href=\"%s\">Featured Images</a> for posts you&rsquo;d like to stand out (also known as post thumbnails). This allows you to associate an image with your post without inserting it. Twenty Fourteen uses featured images for posts and pages&mdash;above the title&mdash;and in the Featured Content area on the home page."
+msgstr "透過為想要脫穎而出的文章採用<a href=\"%s\">精選圖片</a> (一般稱為內容縮圖)，便能藉以美化網站設計。精選圖片功能能讓作者將圖片與文章產生關聯，而無須在文章內容中插入這張圖片。Twenty Fourteen 在文章及頁面的標題上方顯示精選圖片，也會在首頁的精選內容區域中展示。"
+
+#. translators: 1: Featured tag editor URL, 2: Post editor URL, 3: Customizer
+#. URL, 4: Post editor URL.
+#: inc/customizer.php:166
+msgid "The home page features your choice of up to 6 posts prominently displayed in a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed instead."
+msgstr "首頁頁首最多可以選取 6 篇文章以格狀或輪播方式顯示，網站管理員可以在 [外觀] &rarr; [<a href=\"%2$s\">自訂</a>] 中設定指定的標籤名稱，而標示指定<a href=\"%1$s\">標籤名稱</a>的文章便可顯示於首頁。如果沒有符合指定標籤名稱的文章，便會改以顯示<a href=\"%3$s\">置頂文章</a>。"
+
+#: inc/customizer.php:90
+msgid "Slider"
+msgstr "透影片顯示"
+
+#: inc/customizer.php:89
+msgid "Grid"
+msgstr "格狀顯示"
+
+#: inc/customizer.php:85
+msgid "Layout"
+msgstr "版面配置"
+
+#. translators: 1: Featured tag editor URL, 2: Post editor URL, 3: Customizer
+#. URL, 4: Post editor URL.
+#: inc/customizer.php:65 inc/customizer.php:166 inc/featured-content.php:386
+#: inc/featured-content.php:398 inc/featured-content.php:464
+msgctxt "featured content default tag slug"
+msgid "featured"
+msgstr "featured"
+
+#. translators: 1: Featured tag editor URL, 2: Post editor URL.
+#: inc/customizer.php:64 inc/featured-content.php:385
+msgid "Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr "使用<a href=\"%1$s\">標籤</a>將這個網站的文章標示為精選內容。如果沒有符合標籤條件的文章，便會以<a href=\"%2$s\">置頂文章</a>取代。"
+
+#: inc/customizer.php:61 inc/featured-content.php:382
+msgid "Featured Content"
+msgstr "精選內容"
+
+#: inc/customizer.php:53 inc/customizer.php:54
+msgid "Background may only be visible on wide screens."
+msgstr "背景可能只會於寬螢幕顯示。"
+
+#: inc/customizer.php:50 inc/customizer.php:51
+msgid "May only be visible on wide screens."
+msgstr "可能只會於寬螢幕顯示。"
+
+#: inc/customizer.php:46
+msgid "Display Site Title &amp; Tagline"
+msgstr "顯示 [網站標題] 及 [網站說明]"
+
+#: inc/customizer.php:43
+msgid "Site Title Color"
+msgstr "網站標題色彩"
+
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:41 inc/back-compat.php:56 inc/back-compat.php:77
+msgid "Twenty Fourteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fourteen 最低需求為 WordPress 3.6，而這個網站執行的是 %s，請於網站完成升級後再試一次。"
+
+#: image.php:69
+msgid "Next Image"
+msgstr "下一張圖片"
+
+#: image.php:68
+msgid "Previous Image"
+msgstr "上一張圖片"
+
+#. translators: Hidden accessibility text.
+#: header.php:27
+msgid "Skip to content"
+msgstr "跳至主要內容"
+
+#: header.php:59
+msgid "Primary Menu"
+msgstr "主要選單"
+
+#. translators: Hidden accessibility text.
+#: header.php:53
+msgid "Search"
+msgstr "搜尋"
+
+#. translators: %s: Page number.
+#: functions.php:693
+msgid "Page %s"
+msgstr "第 %s 頁"
+
+#. translators: %d: Post count.
+#: functions.php:572
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] "%d 篇文章"
+
+#: functions.php:384
+msgid "Next"
+msgstr "下一張"
+
+#: functions.php:383
+msgid "Previous"
+msgstr "上一張"
+
+#. translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:326
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:301
+msgid "Appears in the footer section of the site."
+msgstr "顯示於網站頁尾的資訊欄。"
+
+#: functions.php:299
+msgid "Footer Widget Area"
+msgstr "頁尾小工具區域"
+
+#: functions.php:290
+msgid "Additional sidebar that appears on the right."
+msgstr "顯示於右側的其他資訊欄。"
+
+#: functions.php:288
+msgid "Content Sidebar"
+msgstr "內容資訊欄"
+
+#: functions.php:279
+msgid "Main sidebar that appears on the left."
+msgstr "顯示於左側的主要資訊欄。"
+
+#: functions.php:277
+msgid "Primary Sidebar"
+msgstr "主要資訊欄"
+
+#: functions.php:146
+msgid "Secondary menu in left sidebar"
+msgstr "左側資訊欄次要選單"
+
+#: functions.php:145
+msgid "Top primary menu"
+msgstr "頂端主要選單"
+
+#. translators: %s: WordPress
+#: footer.php:37
+msgid "Proudly powered by %s"
+msgstr "本站採用 %s 建置"
+
+#: content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "找不到符合條件的內容。請使用搜尋功能，應會有所幫助。"
+
+#: content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "很抱歉，找不到符合搜尋條件的結果，請以不同的關鍵字重試。"
+
+#. translators: %s: Post editor URL.
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "準備發佈第一篇文章了嗎？請從<a href=\"%s\">這裡</a>開始。"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "找不到符合條件的結果"
+
+#: content-aside.php:57 content-audio.php:57 content-gallery.php:57
+#: content-image.php:57 content-link.php:57 content-page.php:24
+#: content-quote.php:57 content-video.php:57 content.php:66 image.php:56
+msgid "Pages:"
+msgstr "頁次:"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: content-aside.php:50 content-audio.php:50 content-gallery.php:50
+#: content-image.php:50 content-link.php:50 content-quote.php:50
+#: content-video.php:50 content.php:59 inc/template-tags.php:240
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "閱讀全文 %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:41 content-audio.php:41 content-gallery.php:41
+#: content-image.php:41 content-link.php:41 content-page.php:31
+#: content-quote.php:41 content-video.php:41 content.php:44 image.php:35
+#: page-templates/contributors.php:36
+msgid "Edit"
+msgstr "編輯"
+
+#: content-aside.php:38 content-audio.php:38 content-gallery.php:38
+#: content-image.php:38 content-link.php:38 content-quote.php:38
+#: content-video.php:38 content.php:40 inc/widgets.php:230
+msgid "% Comments"
+msgstr "% 則留言"
+
+#: content-aside.php:38 content-audio.php:38 content-gallery.php:38
+#: content-image.php:38 content-link.php:38 content-quote.php:38
+#: content-video.php:38 content.php:40 inc/widgets.php:230
+msgid "1 Comment"
+msgstr "1 則留言"
+
+#: content-aside.php:38 content-audio.php:38 content-gallery.php:38
+#: content-image.php:38 content-link.php:38 content-quote.php:38
+#: content-video.php:38 content.php:40 inc/widgets.php:230
+msgid "Leave a comment"
+msgstr "發佈留言"
+
+#: content-aside.php:18 content-audio.php:18 content-featured-post.php:29
+#: content-gallery.php:18 content-image.php:18 content-link.php:18
+#: content-quote.php:18 content-video.php:18 content.php:20
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr "、"
+
+#: comments.php:87
+msgid "Comments are closed."
+msgstr "留言功能已關閉。"
+
+#: comments.php:57 comments.php:82
+msgid "Newer Comments &rarr;"
+msgstr "較新的留言 &rarr;"
+
+#: comments.php:56 comments.php:81
+msgid "&larr; Older Comments"
+msgstr "&larr; 較舊的留言"
+
+#. translators: Hidden accessibility text.
+#: comments.php:53 comments.php:78
+msgid "Comment navigation"
+msgstr "留言導覽"
+
+#. translators: %s: Category title.
+#: category.php:23
+msgid "Category Archives: %s"
+msgstr "分類彙整: %s"
+
+#. translators: %s: Author display name.
+#: author.php:32
+msgid "All posts by %s"
+msgstr "「%s」的全部文章"
+
+#: archive.php:40 taxonomy-post_format.php:51
+msgid "Archives"
+msgstr "彙整"
+
+#. translators: %s: Date.
+#: archive.php:38
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y 年"
+
+#. translators: %s: Date.
+#: archive.php:38
+msgid "Yearly Archives: %s"
+msgstr "年份彙整: %s"
+
+#. translators: %s: Date.
+#: archive.php:35
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y 年 n 月"
+
+#. translators: %s: Date.
+#: archive.php:35
+msgid "Monthly Archives: %s"
+msgstr "月份彙整: %s"
+
+#. translators: %s: Date.
+#: archive.php:32
+msgid "Daily Archives: %s"
+msgstr "每日彙整: %s"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "在這裡找不到符合條件的項目，請使用搜尋功能進行查詢。"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "找不到符合條件的項目"
+
+#. Author URI of the theme
+#: style.css footer.php:34
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://tw.wordpress.org/"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "WordPress 團隊"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentyfourteen/"
+msgstr "https://tw.wordpress.org/themes/twentyfourteen/"

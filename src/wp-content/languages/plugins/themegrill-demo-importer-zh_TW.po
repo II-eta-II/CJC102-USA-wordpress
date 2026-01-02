@@ -1,0 +1,87 @@
+# Translation of Plugins - Starter Templates &amp; Sites Pack by ThemeGrill - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Starter Templates &amp; Sites Pack by ThemeGrill - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-09-23 04:33:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Starter Templates &amp; Sites Pack by ThemeGrill - Stable (latest release)\n"
+
+#: src/Traits/Singleton.php:34 src/Traits/Singleton.php:41
+msgid "Cheatin&#8217; huh?"
+msgstr "很抱歉，無法進行這項操作。"
+
+#. Author URI of the plugin
+#: themegrill-demo-importer.php
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Plugin URI of the plugin
+#: themegrill-demo-importer.php
+msgid "https://themegrill.com/demo-importer/"
+msgstr "https://themegrill.com/demo-importer/"
+
+#: src/App.php:87
+msgid "Free Support"
+msgstr "免費技術支援"
+
+#: src/App.php:87
+msgid "Visit Free Customer Support Forum"
+msgstr "造訪免費版使用者技術支援論壇"
+
+#: src/App.php:86
+msgid "Docs"
+msgstr "線上說明"
+
+#: src/Importers/WXRImporter/WXRImporter.php:1519
+msgid "Remote file is too large, limit is %s"
+msgstr "遠端檔案過大，限制為 %s"
+
+#: src/Importers/WXRImporter/WXRImporter.php:1513
+msgid "Zero size file downloaded"
+msgstr "大小為零的檔案已完成下載"
+
+#: src/Importers/WXRImporter/WXRImporter.php:1508
+msgid "Remote file is incorrect size"
+msgstr "遠端檔案的大小錯誤"
+
+#: src/Importers/WXRImporter/WXRImporter.php:1495
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr "遠端伺服器傳回的錯誤回應為 %1$d %2$s (網址為 %3$s)"
+
+#: src/Importers/WXRImporter/WXRImporter.php:972
+msgid "Invalid file type"
+msgstr "無效的檔案類型"
+
+#: src/Importers/WidgetsImporter.php:219
+msgid "No Title"
+msgstr "無標題"
+
+#: src/Importers/WidgetsImporter.php:213
+msgid "Imported to Inactive"
+msgstr "已匯入至 [未啟用的小工具]"
+
+#: src/Importers/WidgetsImporter.php:210
+msgid "Imported"
+msgstr "已匯入"
+
+#: src/Importers/WidgetsImporter.php:151
+msgid "Widget already exists"
+msgstr "小工具已存在"
+
+#: src/Importers/WidgetsImporter.php:117
+msgid "Site does not support widget"
+msgstr "網站不支援小工具"
+
+#: src/Importers/WidgetsImporter.php:95
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr "佈景主題中不包含資訊欄，這會將匯入的小工具移至 [未啟用的小工具]。"
+
+#. Author of the plugin
+#: themegrill-demo-importer.php
+msgid "ThemeGrill"
+msgstr "ThemeGrill"

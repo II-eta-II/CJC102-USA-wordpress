@@ -1,0 +1,906 @@
+# Translation of Themes - FoodHunt in Chinese (Taiwan)
+# This file is distributed under the same license as the Themes - FoodHunt package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-13 23:35:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Themes - FoodHunt\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "FoodHunt is modern style multi purpose theme specially focus for Restaurant websites. However, due to its flexibility and easiness it can be used to create any types of sites."
+msgstr "FoodHunt 是針對餐飲業網站的現代風格多用途佈景主題。由於它兼具靈活性及易用性，使得它也可以用來建置任何類型的網站。"
+
+#. Theme Name of the theme
+#: style.css inc/admin/class-foodhunt-theme-review-notice.php:74
+#: inc/foodhunt.php:391
+#, gp-priority: high
+msgid "FoodHunt"
+msgstr "FoodHunt"
+
+#: inc/admin/class-foodhunt-welcome-notice.php:110
+msgid "You do not have permission to perform this action."
+msgstr "目前的登入身分沒有執行這項操作的權限。"
+
+#: inc/admin/class-foodhunt-theme-review-notice.php:130
+msgid "I have a query"
+msgstr "我想提出問題"
+
+#: inc/admin/class-foodhunt-theme-review-notice.php:115
+msgid "Sure, I'd love to!"
+msgstr "我願意撰寫評論"
+
+#. translators: %s: Smiley icon
+#: inc/admin/class-foodhunt-theme-review-notice.php:106
+msgid "Basically, it would encourage us to release updates regularly with new features & bug fixes so that you can keep on using the theme without any issues and also to provide free support like we have been doing. %s"
+msgstr "基本上，這些好評會鼓勵我們定期發佈包含新功能及程式碼修正的更新，這能讓使用這個佈景主題的網站不會發生問題，並讓我們疑如果往的持續提供免費技術支援%s。"
+
+#: inc/admin/class-foodhunt-theme-review-notice.php:100
+msgid "What benefit would you have?"
+msgstr "撰寫好評對開發團隊有什麼好處？"
+
+#. translators: %1$s: Opening of strong tag, %2$s: Theme's Name, %3$s: Closing
+#. of strong tag
+#: inc/admin/class-foodhunt-theme-review-notice.php:92
+msgid "Hope you are having a nice experience with %1$s %2$s %3$s theme. Please provide this theme a nice review."
+msgstr "希望你對 %1$s%2$s%3$s 有良好的使用者體驗。請為這個佈景主題撰寫好評。"
+
+#. translators: %s: Smile icon
+#: inc/admin/class-foodhunt-theme-review-notice.php:83
+msgid "The above word is just to draw your attention. %s"
+msgstr "以上的通知只是希望引起你的注意%s。"
+
+#: inc/admin/class-foodhunt-dashboard.php:113
+msgid "Leave a review"
+msgstr "撰寫評論"
+
+#: inc/admin/class-foodhunt-dashboard.php:110
+msgid "Further Actions"
+msgstr "進一步行動"
+
+#: inc/admin/class-foodhunt-dashboard.php:105
+msgid "Premium Version"
+msgstr "付費版"
+
+#: inc/admin/class-foodhunt-dashboard.php:104
+msgid "Starter Demos"
+msgstr "示範內容"
+
+#: inc/admin/class-foodhunt-dashboard.php:101
+msgid "Next Steps"
+msgstr "下一步"
+
+#: inc/admin/class-foodhunt-dashboard.php:96
+msgid "Learn Basics"
+msgstr "進一步了解"
+
+#: inc/admin/class-foodhunt-dashboard.php:93
+msgid "Get Started"
+msgstr "開始使用"
+
+#. translators: %s: Theme Name.
+#: inc/admin/class-foodhunt-dashboard.php:87
+msgid "Important links to get you started with %s"
+msgstr "這裡提供 %s 使用入門的重要連結。"
+
+#. translators: %s: Theme Name.
+#: inc/admin/class-foodhunt-dashboard.php:81
+msgid "Welcome to %s!"
+msgstr "歡迎使用 %s！"
+
+#. translators: %s: Theme version.
+#: inc/admin/class-foodhunt-dashboard.php:72
+msgid "FoodHunt %s"
+msgstr "FoodHunt %s"
+
+#. translators: %s: Theme Name.
+#: inc/admin/class-foodhunt-dashboard.php:44
+msgid "%s Options"
+msgstr "%s 選項"
+
+#: inc/admin/class-foodhunt-upgrade-notice.php:100
+msgid "Got pre sales queries?"
+msgstr "詢問售前問題"
+
+#: inc/admin/class-foodhunt-upgrade-notice.php:90
+msgid "Upgrade to pro"
+msgstr "升級至 Pro 版"
+
+#. Translators: %1$s current user display name., %2$s this theme name., %3$s
+#. discount coupon code., %4$s discount percentage.
+#: inc/admin/class-foodhunt-upgrade-notice.php:74
+msgid "Howdy, %1$s! You've been using %2$s theme for a while now, and we hope you're happy with it. To access more premium features you can always upgrade to pro. All contents and settings will remain as it is after upgrading to pro, you basically start from where you left. Also, you can use the coupon code %3$s to get %4$s discount (limited time offer) while making the purchase. Enjoy! "
+msgstr "%1$s，你好！這個網站使用 %2$s 佈景主題已有一段時間，希望它的功能滿足了網站的需求。升級至 Pro 版後，便能存取付費版功能。升級至 Pro 版後，網站上的全部內容及佈景主題設定均會保留，並會從前次設定時離開的地方開始。此外，購買約期授權時，可以使用 %3$s 這個優惠代碼，便能獲得 %4$s 的限時折扣。"
+
+#: inc/admin/class-foodhunt-welcome-notice.php:68
+msgid "Clicking the button will install and activate the ThemeGrill demo importer plugin."
+msgstr "點擊按鈕便會安裝並啟用 ThemeGrill Demo Importer 外掛。"
+
+#: inc/admin/class-foodhunt-welcome-notice.php:51
+msgid "Foodhunt"
+msgstr "FoodHunt"
+
+#: inc/admin/class-foodhunt-theme-review-notice.php:120
+msgid "I already did!"
+msgstr "已撰寫過外掛評分"
+
+#: inc/admin/class-foodhunt-theme-review-notice.php:125
+#: inc/admin/class-foodhunt-upgrade-notice.php:95
+msgid "Maybe later"
+msgstr "稍後再說"
+
+#: inc/admin/class-foodhunt-admin.php:38
+msgid "Processing..."
+msgstr "正在處理..."
+
+#: header.php:32
+msgid "Skip to content"
+msgstr "跳至主要內容"
+
+#: inc/related-posts.php:8
+msgid "You May Also Like"
+msgstr "相關文章"
+
+#: inc/customizer.php:682
+msgid "Related Posts By Tags"
+msgstr "依標籤顯示"
+
+#: inc/customizer.php:681
+msgid "Related Posts By Categories"
+msgstr "依分類顯示"
+
+#: inc/customizer.php:677
+msgid "Related Posts Must Be Shown As:"
+msgstr "[相關文章] 顯示條件:"
+
+#: inc/customizer.php:663
+msgid "Check to activate related posts ."
+msgstr "啟用 [相關文章] 功能"
+
+#: inc/customizer.php:645
+msgid "Related Posts"
+msgstr "相關文章"
+
+#: inc/customizer.php:600
+msgid "Check to display the Author Bio in single post page."
+msgstr "啟用這項設定後，便會在單篇文章中顯示作者簡歷"
+
+#: inc/customizer.php:583
+msgid "Author Bio Options"
+msgstr "作者簡歷設定"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:60
+#: inc/widgets/class-foodhunt-our-team-widget.php:61
+#: inc/widgets/class-foodhunt-service-widget.php:60
+msgid "Select an Image"
+msgstr "選取圖片"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:60
+#: inc/widgets/class-foodhunt-our-team-widget.php:61
+#: inc/widgets/class-foodhunt-service-widget.php:60
+msgid "Use image"
+msgstr "使用圖片"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:60
+#: inc/widgets/class-foodhunt-our-team-widget.php:61
+#: inc/widgets/class-foodhunt-service-widget.php:60
+msgid "Choose an image"
+msgstr "選取圖片"
+
+#: inc/admin/class-foodhunt-dashboard.php:112
+msgid "Got theme support question?"
+msgstr "詢問佈景主題技術支援問題"
+
+#: inc/admin/class-foodhunt-welcome-notice.php:26
+msgid "Get started with Foodhunt"
+msgstr "開始使用 FoodHunt"
+
+#. translators: 1: welcome page link starting html tag, 2: welcome page link
+#. ending html tag.
+#: inc/admin/class-foodhunt-welcome-notice.php:59
+msgid "Welcome! Thank you for choosing Foodhunt! To fully take advantage of the best our theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr "你好，感謝採用 FoodHunt！要充分發揮這個佈景主題所提供的功能，請造訪 [%1$s歡迎頁面%2$s]。"
+
+#: inc/admin/class-foodhunt-notice.php:63
+#: inc/admin/class-foodhunt-notice.php:82
+#: inc/admin/class-foodhunt-welcome-notice.php:86
+msgid "Cheatin&#8217; huh?"
+msgstr "很抱歉，無法進行這項操作。"
+
+#: inc/admin/class-foodhunt-notice.php:59
+#: inc/admin/class-foodhunt-notice.php:78
+#: inc/admin/class-foodhunt-theme-review-notice.php:151
+#: inc/admin/class-foodhunt-theme-review-notice.php:169
+#: inc/admin/class-foodhunt-welcome-notice.php:82
+msgid "Action failed. Please refresh the page and retry."
+msgstr "操作失敗。請重新整理頁面再試一次。"
+
+#. Template Name of the theme
+msgid "Our Team Template"
+msgstr "我們的團隊範本"
+
+#. Template Name of the theme
+msgid "Service Template"
+msgstr "服務範本"
+
+#. Template Name of the theme
+msgid "Restaurant Template"
+msgstr "餐飲業範本"
+
+#. Template Name of the theme
+msgid "Portfolio Template"
+msgstr "產品集範本"
+
+#: template-parts/content-slider.php:52
+msgid "Read more"
+msgstr "閱讀全文"
+
+#: template-parts/content-page.php:21 template-parts/content-single.php:57
+#: template-parts/content.php:68
+msgid "Pages:"
+msgstr "頁次:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "找不到符合條件的內容。請使用搜尋功能，應會有所幫助。"
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "很抱歉，找不到符合搜尋條件的結果，請以不同的關鍵字重試。"
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "準備發佈第一篇文章了嗎？請從<a href=\"%1$s\">這裡</a>開始。"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "找不到符合條件的結果"
+
+#: sidebar.php:20
+msgid "This is an example widget to show how the Right Sidebar looks by default. You can add custom widgets from the %swidgets screen%s in the admin. If custom widgets is added than this will be replaced by those widgets."
+msgstr "這是示範用小工具，目的在於展示小工具在右側資訊欄的預設外觀。請前往管理後台的 [%s小工具%s] 設定頁加入自訂小工具，加入了自訂小工具後，會取代顯示在這裡的示範用小工具。"
+
+#: sidebar-left.php:20
+msgid "This is an example widget to show how the Left Sidebar looks by default. You can add custom widgets from the %swidgets screen%s in the admin. If custom widgets is added than this will be replaced by those widgets."
+msgstr "這是示範用小工具，目的在於展示小工具在左側資訊欄的預設外觀。請前往管理後台的 [%s小工具%s] 設定頁加入自訂小工具，加入了自訂小工具後，會取代顯示在這裡的示範用小工具。"
+
+#: sidebar-left.php:19 sidebar.php:19
+msgid "Example Widget"
+msgstr "示範用小工具"
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "搜尋"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "搜尋..."
+
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr "「%s」的搜尋結果"
+
+#: navigation.php:33
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: navigation.php:32
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: navigation.php:23
+msgid "Next &rarr;"
+msgstr "下一頁 &rarr;"
+
+#: navigation.php:22
+msgid "&larr; Previous"
+msgstr "&larr; 上一頁"
+
+#: inc/widgets/class-foodhunt-contact-widget.php:43
+msgid "Select a Contact page:"
+msgstr "選取聯絡頁面:"
+
+#: inc/widgets/class-foodhunt-contact-widget.php:38
+msgid "Shortcode:"
+msgstr "短代碼:"
+
+#: inc/widgets/class-foodhunt-contact-widget.php:36
+msgid "Install the Contact Form 7 Plugin and paste the shortcode here:"
+msgstr "請安裝 Contact Form 7 外掛，並在這裡貼上聯絡表單短代碼:"
+
+#: inc/widgets/class-foodhunt-contact-widget.php:10
+msgid "TG: Contact Us"
+msgstr "TG: 與我們聯絡"
+
+#: inc/widgets/class-foodhunt-contact-widget.php:8
+msgid "Show your Contact page."
+msgstr "顯示聯絡資訊頁面。"
+
+#: inc/widgets/class-foodhunt-portfolio-widget.php:38
+msgid "Note: Create the pages and select Gallery Template to display Gallery pages. The Recommended size for featured image is 340px by 340px."
+msgstr "請注意，建立頁面時選用 [產品集範本] 便會顯示為 [產品集] 頁面，[產品集] 頁面的精選圖片的建議尺寸為 340px * 340px。"
+
+#: inc/widgets/class-foodhunt-portfolio-widget.php:11
+msgid "TG: Portfolio"
+msgstr "TG: 產品集"
+
+#: inc/widgets/class-foodhunt-portfolio-widget.php:9
+msgid "Display some pages as Portfolio or Gallery."
+msgstr "將指定頁面顯示為產品集、作品及或照片藝廊。"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:51
+msgid "Info: To display posts from specific category, select the Category in above radio option than select the category from the drop-down list."
+msgstr "提示: 如需顯示指定分類的文章，請在上方先設定為 [顯示指定分類文章]，然後在下拉式清單中選取分類。"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:47
+msgid "Select category"
+msgstr "選取分類"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:43
+msgid "Show posts from a category"
+msgstr "顯示指定分類文章"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:42
+msgid "Show latest Posts"
+msgstr "顯示最新文章"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:37
+msgid "Number of posts to display:"
+msgstr "顯示的文章數量:"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:33
+msgid "Description"
+msgstr "說明:"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:11
+msgid "TG: Featured Posts"
+msgstr "TG: 精選文章"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:9
+msgid "Display latest posts or posts of specific category."
+msgstr "顯示最新文章或指定分類的文章。"
+
+#: inc/widgets/class-foodhunt-our-team-widget.php:46
+msgid "Note: Create the pages and select Our Team Template to display Our Team pages. The Recommended size for featured image is 380px by 380px."
+msgstr "請注意，建立頁面時選用 [我們的團隊範本] 便會顯示為 [我們的團隊] 頁面，[我們的團隊] 頁面的精選圖片的建議尺寸為 380px * 380px。"
+
+#: inc/widgets/class-foodhunt-our-team-widget.php:10
+msgid "TG: Our Team"
+msgstr "TG: 我們的團隊"
+
+#: inc/widgets/class-foodhunt-our-team-widget.php:8
+msgid "Show your Team Members."
+msgstr "顯示團隊成員。"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:35
+msgid "Call to Action Main Text:"
+msgstr "行動號召主要內容:"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:10
+msgid "TG: Call To Action"
+msgstr "TG: 行動號召"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:8
+msgid "Use this widget to show the call to action section."
+msgstr "使用這個小工具顯示行動號召區段。"
+
+#: inc/widgets/class-foodhunt-our-team-widget.php:176
+#: inc/widgets/class-foodhunt-service-widget.php:178
+#: template-parts/content-search.php:43 template-parts/content.php:59
+#: template-parts/content.php:64
+msgid "Read More"
+msgstr "閱讀全文"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:81
+#: inc/widgets/class-foodhunt-our-team-widget.php:70
+#: inc/widgets/class-foodhunt-service-widget.php:69
+msgid "Note: Background image (if used) will override the background color."
+msgstr "請注意，一旦設定了背景圖片，這項設定便會覆寫背景顏色。"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:65
+#: inc/widgets/class-foodhunt-our-team-widget.php:66
+#: inc/widgets/class-foodhunt-service-widget.php:65
+msgid "Background Color:"
+msgstr "背景色彩:"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:52
+#: inc/widgets/class-foodhunt-our-team-widget.php:53
+#: inc/widgets/class-foodhunt-service-widget.php:52
+msgid "Background Image:"
+msgstr "背景圖片:"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:48
+#: inc/widgets/class-foodhunt-our-team-widget.php:49
+#: inc/widgets/class-foodhunt-service-widget.php:48
+msgid "DESIGN SETTINGS :"
+msgstr "設計設定"
+
+#: inc/widgets/class-foodhunt-service-widget.php:45
+msgid "Note: Create the pages and select Services Template to display Services pages. The Recommended size for featured image is 290px by 290px."
+msgstr "請注意，建立頁面時選用 [服務範本] 便會顯示為 [服務] 頁面，[服務] 頁面的精選圖片的建議尺寸為 290px * 290px。"
+
+#: inc/widgets/class-foodhunt-our-team-widget.php:42
+#: inc/widgets/class-foodhunt-portfolio-widget.php:34
+#: inc/widgets/class-foodhunt-service-widget.php:41
+msgid "Number of pages to display:"
+msgstr "顯示的頁面數量:"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:32
+#: inc/widgets/class-foodhunt-our-team-widget.php:31
+#: inc/widgets/class-foodhunt-service-widget.php:29
+msgid "Widget SETTINGS :"
+msgstr "小工具設定"
+
+#: inc/widgets/class-foodhunt-service-widget.php:10
+msgid "TG: Service"
+msgstr "TG: 服務"
+
+#: inc/widgets/class-foodhunt-service-widget.php:8
+msgid "Display some pages as services."
+msgstr "將指定頁面顯示為服務項目。"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:66
+msgid "Note: Leave Button Redirect Link empty to redirect it to the respective page."
+msgstr "請注意，如將 [按鈕重新導向連結] 設定留空，會將使用者重新導向至 [頁面] 設定中指定的頁面。"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:65
+msgid "Info: The Recommended size for featured image is 530px by 440px."
+msgstr "提示: 精選圖片的建議尺寸為 530px * 440px。"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:61
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:76
+msgid "For Icon Class <a href=\"%s\" target=\"_blank\">Refer here</a>"
+msgstr "關於圖示類別，請參考<a href=\"%s\" target=\"_blank\">這份文件</a>。"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:54
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:69
+msgid "Button Icon Class:"
+msgstr "按鈕圖示類別:"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:49
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:43
+msgid "Button Redirect Link:"
+msgstr "按鈕重新導向連結:"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:44
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:38
+msgid "Button Text:"
+msgstr "按鈕文字:"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:40
+msgid "Page"
+msgstr "頁面"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:39
+msgid "Select a page to display Title, Excerpt and Featured image."
+msgstr "選取合適的頁面以顯示它的標題、內容摘要及精選圖片。"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:36
+#: inc/widgets/class-foodhunt-contact-widget.php:32
+#: inc/widgets/class-foodhunt-our-team-widget.php:38
+#: inc/widgets/class-foodhunt-portfolio-widget.php:30
+#: inc/widgets/class-foodhunt-service-widget.php:37
+msgid "Description:"
+msgstr "說明:"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:32
+#: inc/widgets/class-foodhunt-contact-widget.php:28
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:30
+#: inc/widgets/class-foodhunt-our-team-widget.php:35
+#: inc/widgets/class-foodhunt-portfolio-widget.php:26
+#: inc/widgets/class-foodhunt-service-widget.php:33
+msgid "Title:"
+msgstr "標題:"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:10
+msgid "TG: Featured Single Page"
+msgstr "TG: 精選單篇頁面"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:8
+msgid "Suitable for About Us page."
+msgstr "適用於〈關於我們〉頁面。"
+
+#: inc/widgets.php:49
+msgid "Show widgets at Footer section."
+msgstr "在頁尾區段顯示小工具。"
+
+#: inc/widgets.php:47
+msgid "Footer Sidebar "
+msgstr "頁尾資訊欄 "
+
+#: inc/widgets.php:38
+msgid "Shows widgets On the Restaurant Template."
+msgstr "請在此設定要顯示在 [餐飲業範本] 中的小工具。"
+
+#: inc/widgets.php:36
+msgid "Restaurant Template Sidebar"
+msgstr "餐飲業範本資訊欄"
+
+#: inc/widgets.php:28
+msgid "Shows widgets at Left side."
+msgstr "於左側資訊欄顯示小工具。"
+
+#: inc/widgets.php:18
+msgid "Shows widgets at Right side."
+msgstr "在右側資訊欄顯示小工具。"
+
+#: inc/foodhunt.php:567
+msgid "Background Color"
+msgstr "背景色彩"
+
+#: inc/foodhunt.php:494
+msgid "Designation field for Team Member"
+msgstr "輸入團隊成員職稱:"
+
+#: inc/foodhunt.php:449
+msgid "team designation"
+msgstr "團隊成員職稱"
+
+#: inc/foodhunt.php:442
+msgid "No Sidebar Content Centered"
+msgstr "無資訊欄，內容居中"
+
+#: inc/foodhunt.php:437
+msgid "No Sidebar Full Width"
+msgstr "無資訊欄，全螢幕寬度"
+
+#: inc/foodhunt.php:432 inc/widgets.php:26
+msgid "Left Sidebar"
+msgstr "左側資訊欄"
+
+#: inc/foodhunt.php:427 inc/widgets.php:16
+msgid "Right Sidebar"
+msgstr "右側資訊欄"
+
+#: inc/foodhunt.php:422
+msgid "Default Layout"
+msgstr "預設版面配置"
+
+#: inc/foodhunt.php:412
+msgid "Our Team Designation"
+msgstr "團隊成員職稱"
+
+#: inc/foodhunt.php:408 inc/foodhunt.php:410
+msgid "Select Layout"
+msgstr "選取版面配置"
+
+#: inc/foodhunt.php:393
+msgid "Powered by %s"
+msgstr "採用 %s 建置"
+
+#: inc/foodhunt.php:393
+msgid "Theme: %1$s by %2$s."
+msgstr "佈景主題採用 %2$s 所設計的 %1$s"
+
+#: inc/foodhunt.php:393
+msgid "Copyright &copy; %1$s %2$s."
+msgstr "版權所有 &copy; %1$s %2$s。"
+
+#: inc/foodhunt.php:389
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/foodhunt.php:206
+msgid ", "
+msgstr "、"
+
+#: inc/foodhunt.php:201
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:169
+msgid "Comments (%)"
+msgstr "% 則留言"
+
+#: inc/foodhunt.php:201
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:169
+msgid "Comment (1)"
+msgstr "1 則留言"
+
+#: inc/foodhunt.php:201
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:169
+msgid "Leave a comment"
+msgstr "發佈留言"
+
+#: inc/customizer.php:82
+msgid "View PRO version"
+msgstr "進一步了解 Pro 版"
+
+#: inc/customizer.php:805
+msgid "Check to hide Tags."
+msgstr "隱藏標籤"
+
+#: inc/customizer.php:786
+msgid "Check to hide Category."
+msgstr "隱藏分類"
+
+#: inc/customizer.php:767
+msgid "Check to hide Comment."
+msgstr "隱藏留言"
+
+#: inc/customizer.php:748
+msgid "Check to hide Author."
+msgstr "隱藏作者"
+
+#: inc/customizer.php:729
+msgid "Check to hide Date."
+msgstr "隱藏日期"
+
+#: inc/customizer.php:710
+msgid "Check to All the Meta."
+msgstr "隱藏全部中繼資料"
+
+#: inc/customizer.php:692
+msgid "Hide specific or all the meta/information from the Blog posts and Single post"
+msgstr "為部落格文章及單篇文章隱藏指定或全部中繼資訊。"
+
+#: inc/customizer.php:635
+msgid "Display Full Content"
+msgstr "顯示完整內容"
+
+#: inc/customizer.php:634
+msgid "Display Excerpt"
+msgstr "顯示內容摘要"
+
+#: inc/customizer.php:630
+msgid "Choose to show Excerpt or Full Post"
+msgstr "設定顯示內容摘要或完整內容"
+
+#: inc/customizer.php:613
+msgid "Display full content or short description/excerpt on the Posts Page"
+msgstr "設定文章頁面要顯示完整內容、簡短說明或內容摘要。"
+
+#: inc/customizer.php:574
+msgid "Additional Options"
+msgstr "附加功能"
+
+#: inc/customizer.php:572
+msgid "Contain all Additional settings"
+msgstr "包含全部附加功能設定。"
+
+#: inc/customizer.php:557
+msgid "Write your custom css"
+msgstr "編輯自訂 CSS。"
+
+#: inc/customizer.php:545
+msgid "Custom CSS"
+msgstr "自訂 CSS"
+
+#: inc/customizer.php:536
+msgid "This will reflect in links, buttons and many others. Choose a color to match your site"
+msgstr "這項設定會套用至連結、按鈕等處的色彩。請選取符合網站調性的色彩。"
+
+#: inc/customizer.php:523
+msgid "Primary color option"
+msgstr "主要色彩設定"
+
+#: inc/customizer.php:508
+msgid "Select default layout for single posts. This layout will be reflected in all single posts unless unique layout is set for specific post"
+msgstr "為單篇文章選取預設版面配置。除非為指定文章設定了其他版面配置，否則這項設定會套用至全部單篇文章。"
+
+#: inc/customizer.php:490
+msgid "Default layout for single posts only"
+msgstr "單篇文章預設版面配置"
+
+#: inc/customizer.php:473
+msgid "Select default layout for pages. This layout will be reflected in all pages unless unique layout is \tset for specific page"
+msgstr "為單篇頁面選取預設版面配置。除非為指定頁面設定了其他版面配置，否則這項設定會套用至全部單篇頁面。"
+
+#: inc/customizer.php:455
+msgid "Default layout for pages only"
+msgstr "頁面預設版面配置"
+
+#: inc/customizer.php:438
+msgid "Select default layout. This layout will be reflected in whole site archives, categories, search\tpage etc. The layout for a single post and page can be controlled from below options"
+msgstr "選取預設版面配置。這項設定會套用至全站的彙整、分類、搜尋等頁面。單篇文章及單篇頁面的版面配置，可在其他設定中進行。"
+
+#: inc/customizer.php:420
+msgid "Default layout"
+msgstr "預設版面配置"
+
+#: inc/customizer.php:411
+msgid "Design Options"
+msgstr "設計"
+
+#: inc/customizer.php:409
+msgid "Contain all the Design related settings"
+msgstr "包含全部設計相關設定。"
+
+#: inc/customizer.php:395
+msgid "Hide slider navigation Buttons"
+msgstr "隱藏投影片輪播按鈕"
+
+#: inc/customizer.php:376
+msgid "Hide slider Left/Right Arrows"
+msgstr "隱藏投影片輪播左/右箭號"
+
+#: inc/customizer.php:358
+msgid "Option to hide the slider controls"
+msgstr "以下設定可隱藏投影片輪播的控制項。"
+
+#: inc/customizer.php:344
+msgid "Slide "
+msgstr "投影片 "
+
+#: inc/customizer.php:324
+msgid "Enter Icon Class"
+msgstr "輸入圖示類別"
+
+#: inc/customizer.php:296
+msgid "Enable Slider"
+msgstr "啟用 [投影片輪播]"
+
+#: inc/customizer.php:277
+msgid "Slider displays the Title, Content and Featured image of the page. The recommended size for slider image is 1920px by 1000px. Select the pages in the option provided below"
+msgstr "這個功能會將指定頁面的標題、內容及精選圖片顯示為投影片輪播。用於投影片輪播的頁面，其精選圖片的建議尺寸為 1920px * 1080px。請於下方選取要顯示為投影片輪播的頁面。"
+
+#: inc/customizer.php:267
+msgid "Slider Options"
+msgstr "投影片輪播"
+
+#: inc/customizer.php:265
+msgid "Contain all the Slider related settings"
+msgstr "包含全部投影片輪播的相關設定。"
+
+#: inc/customizer.php:250
+msgid "Upload Image"
+msgstr "上傳圖片"
+
+#: inc/customizer.php:230
+msgid "Display image as background just below the main Menu on Home page, archive and single pages."
+msgstr "在首頁、彙整頁面及單篇頁面的主要選單下方，將上傳的圖片顯示為背景圖片。"
+
+#: inc/customizer.php:229
+msgid "Header Title Bar"
+msgstr "頁首標題列"
+
+#: inc/customizer.php:219
+msgid "None"
+msgstr "兩者均不顯示"
+
+#: inc/customizer.php:218
+msgid "Show both Logo and Text"
+msgstr "兩者同時顯示"
+
+#: inc/customizer.php:217
+msgid "Header Text Only"
+msgstr "頁首僅顯示文字"
+
+#: inc/customizer.php:216
+msgid "Header Logo Only"
+msgstr "頁首僅顯示標誌"
+
+#: inc/customizer.php:212
+msgid "Choose the required option"
+msgstr "設定顯示方式"
+
+#: inc/customizer.php:194
+msgid "Header Logo"
+msgstr "頁首標誌"
+
+#: inc/customizer.php:183
+msgid "Check to make Header Non-sticky"
+msgstr "啟用這項設定後，便可停用固定式頁首"
+
+#: inc/customizer.php:166
+msgid "Header Sticky Option"
+msgstr "固定式頁首設定"
+
+#: inc/customizer.php:165
+msgid "Header is Sticky by default"
+msgstr "依照預設，頁首為固定位置。"
+
+#: inc/customizer.php:154
+msgid "Text before Post Titles:"
+msgstr "文章標題前的文字:"
+
+#: inc/customizer.php:145 inc/foodhunt.php:103
+msgid "Special:"
+msgstr "最新消息:"
+
+#: inc/customizer.php:127
+msgid "Enable Header News"
+msgstr "啟用 [頁首最新消息]"
+
+#: inc/customizer.php:108
+msgid "Header News"
+msgstr "頁首最新消息"
+
+#: inc/customizer.php:107
+msgid "Display Latest post Titles in the Header Top Bar."
+msgstr "在頁首頂端列顯示最新文章的標題。"
+
+#: inc/customizer.php:98
+msgid "Header Options"
+msgstr "頁首選項"
+
+#: inc/customizer.php:96
+msgid "Contain all the Header related settings"
+msgstr "包含全部頁首相關設定。"
+
+#: inc/admin/class-foodhunt-dashboard.php:103
+msgid "Documentation"
+msgstr "線上說明"
+
+#: header.php:69
+msgid "Menu"
+msgstr "選單"
+
+#: functions.php:62
+msgid "Footer Menu"
+msgstr "頁尾選單"
+
+#: functions.php:61
+msgid "Social Menu"
+msgstr "社交網路服務選單"
+
+#: functions.php:60
+msgid "Primary Right Menu"
+msgstr "右側主要選單"
+
+#: functions.php:59
+msgid "Primary Left Menu"
+msgstr "左側主要選單"
+
+#: footer.php:43
+msgid "close me"
+msgstr "關閉"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "留言功能已關閉。"
+
+#: comments.php:46 comments.php:67
+msgid "Newer Comments"
+msgstr "較新的留言"
+
+#: comments.php:45 comments.php:66
+msgid "Older Comments"
+msgstr "較舊的留言"
+
+#: comments.php:42 comments.php:63
+msgid "Comment navigation"
+msgstr "留言導覽"
+
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "在〈%2$s〉中有 %1$s 則留言"
+
+#: 404.php:29
+msgid "Page Not Found"
+msgstr "找不到符合條件的頁面。"
+
+#: 404.php:28
+msgid "Oops!!"
+msgstr "很抱歉！"
+
+#: 404.php:24
+msgid "404"
+msgstr "404 錯誤"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://themegrill.com/themes/foodhunt/"
+msgstr "https://themegrill.com/themes/foodhunt/"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "ThemeGrill"
+msgstr "ThemeGrill"
