@@ -24,7 +24,7 @@ done
 # 讀取 VERSION 文件並更新網站標題
 if [ -f "/var/www/html/VERSION" ]; then
     VERSION=$(cat /var/www/html/VERSION | tr -d '\r\n')
-    SITE_TITLE="GREEN V${VERSION}"
+    SITE_TITLE="USA V${VERSION}"
     
     echo "📝 更新網站標題為: $SITE_TITLE"
     
