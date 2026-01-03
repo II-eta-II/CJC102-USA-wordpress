@@ -10,8 +10,17 @@ RUN apk add --no-cache \
     libjpeg-turbo-dev \
     libpng-dev \
     libwebp-dev \
+    curl \
+    bash \
+    less \
+    mysql-client \
     && docker-php-ext-configure gd --with-freetype --with-jpeg --with-webp \
     && docker-php-ext-install -j$(nproc) mysqli pdo pdo_mysql opcache gd
+
+# 安裝 WP-CLI
+RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar \
+    && chmod +x wp-cli.phar \
+    && mv wp-cli.phar /usr/local/bin/wp
 
 # 複製設定檔
 COPY nginx.conf /etc/nginx/http.d/default.conf
@@ -21,6 +30,9 @@ COPY uploads.ini /usr/local/etc/php/conf.d/uploads.ini
 # 複製程式碼（排除 uploads，因為它掛載在 EFS）
 WORKDIR /var/www/html
 COPY src/ .
+
+# 複製 VERSION 文件到容器中
+COPY VERSION /var/www/html/VERSION
 
 # 複製 entrypoint 腳本並設定執行權限
 COPY docker-entrypoint.sh /docker-entrypoint.sh
