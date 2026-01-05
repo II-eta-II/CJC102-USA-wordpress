@@ -34,7 +34,12 @@ function display_cwa_earthquake_list() {
         $output .= '<div style="font-size:0.9em; color:#444; line-height:1.6;">';
         $output .= '<div><strong>時間：</strong>' . esc_html($info['OriginTime']) . '</div>';
         $output .= '<div><strong>規模：</strong><span style="font-size:1.1em; color:#d93025; font-weight:bold;">' . esc_html($info['EarthquakeMagnitude']['MagnitudeValue']) . '</span></div>';
-        $output .= '<div><strong>深度：</strong>' . esc_html($info['Depth']['Value']) . ' ' . esc_html($info['Depth']['Unit']) . '</div>';
+        
+        // 只有當 Depth 資料存在時才顯示深度資訊
+        if ( isset($info['Depth']) && isset($info['Depth']['Value']) ) {
+            $output .= '<div><strong>深度：</strong>' . esc_html($info['Depth']['Value']) . ' ' . esc_html($info['Depth']['Unit']) . '</div>';
+        }
+        
         $output .= '</div>';
         
         // 按鈕
