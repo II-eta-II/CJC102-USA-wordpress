@@ -3,3 +3,4 @@ src/wp-content/uploads/
 db_data/
 *.log
 *.pid
+db_dump.sql

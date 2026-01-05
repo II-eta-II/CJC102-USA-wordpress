@@ -1,27 +1,61 @@
+<?php
+/**
+ * Plugin Name: CWA Earthquake Data Display
+ * Description: 顯示中央氣象署最新地震報告資料
+ * Version: 1.0.0
+ * Author: CJC102
+ */
+
+// 防止直接訪問
+if (!defined('ABSPATH')) {
+    exit;
+}
+
 function display_cwa_earthquake_list() {
-    // 1. 調用 WPGetAPI 的資料
-    $data = wpgetapi_endpoint( 'get_earthquake_report', 'get_earthquake_report', array('debug' => false) );
-
-    // 2. [關鍵修正] 如果回傳的是 JSON 字串，先將其轉換為 PHP 陣列
-    if ( is_string( $data ) ) {
-        $data = json_decode( $data, true );
+    // 檢查 CWA_API_TOKEN 是否已設定
+    if (!defined('CWA_API_TOKEN') || empty(CWA_API_TOKEN)) {
+        return '<p>⚠️ CWA API Token 未設定，請聯絡系統管理員。</p>';
     }
-
-    // 3. 檢查資料結構是否符合氣象署規範
-    // 注意：氣象署的 Key 大小寫必須完全一致 (Earthquake)
-    if ( empty( $data ) || !isset( $data['records']['Earthquake'] ) ) {
-        // 如果還是失敗，可以輸出這行來除錯 (發布後可移除)
-        // return '<pre>資料格式不符：' . print_r($data, true) . '</pre>'; 
+    
+    // 1. 構建 API 請求 URL（使用環境變數中的 token）
+    $api_url = add_query_arg(
+        array(
+            'Authorization' => CWA_API_TOKEN,
+            'limit' => '10',
+            'format' => 'JSON'
+        ),
+        'https://opendata.cwa.gov.tw/api/v1/rest/datastore/E-A0015-001'
+    );
+    
+    // 2. 使用 WordPress HTTP API 取得資料
+    $response = wp_remote_get($api_url, array(
+        'timeout' => 10,
+        'sslverify' => true
+    ));
+    
+    // 3. 檢查請求是否成功
+    if (is_wp_error($response)) {
+        error_log('CWA API Error: ' . $response->get_error_message());
+        return '<p>⚠️ 無法取得地震資料，請稍後再試。</p>';
+    }
+    
+    // 4. 解析 JSON 回應
+    $body = wp_remote_retrieve_body($response);
+    $data = json_decode($body, true);
+    
+    // 5. 檢查資料結構是否符合氣象署規範
+    if (empty($data) || !isset($data['records']['Earthquake'])) {
+        error_log('CWA API: Invalid data structure received');
         return '<p>目前沒有最新的地震資料，或資料格式讀取中。</p>';
     }
 
-    $earthquakes = $data['records']['Earthquake']; // 取得 10 筆地震資料
+    $earthquakes = $data['records']['Earthquake']; // 取得地震資料
     
-    // 4. 開始建立 HTML 結構
+    // 6. 開始建立 HTML 結構
     $output = '<div class="earthquake-wrap" style="background:#f8f9fa; padding:20px; border-radius:8px; max-width: 600px;">';
     $output .= '<h2 style="border-bottom:2px solid #0073aa; padding-bottom:10px; margin-top:0;">最新地震報告</h2>';
 
-    foreach ( $earthquakes as $eq ) {
+    foreach ($earthquakes as $eq) {
         $info = $eq['EarthquakeInfo'];
         $report_url = $eq['ReportImageURI']; // 地震報告圖檔網址
         
@@ -36,7 +70,7 @@ function display_cwa_earthquake_list() {
         $output .= '<div><strong>規模：</strong><span style="font-size:1.1em; color:#d93025; font-weight:bold;">' . esc_html($info['EarthquakeMagnitude']['MagnitudeValue']) . '</span></div>';
         
         // 只有當 Depth 資料存在時才顯示深度資訊
-        if ( isset($info['Depth']) && isset($info['Depth']['Value']) ) {
+        if (isset($info['Depth']) && isset($info['Depth']['Value'])) {
             $output .= '<div><strong>深度：</strong>' . esc_html($info['Depth']['Value']) . ' ' . esc_html($info['Depth']['Unit']) . '</div>';
         }
         
@@ -53,4 +87,4 @@ function display_cwa_earthquake_list() {
 }
 
 // 註冊短碼 [my_eq_list]
-add_shortcode( 'my_eq_list', 'display_cwa_earthquake_list' );
+add_shortcode('my_eq_list', 'display_cwa_earthquake_list');

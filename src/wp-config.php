@@ -73,6 +73,11 @@ define( 'SECURE_AUTH_SALT', getenv('WORDPRESS_SECURE_AUTH_SALT') ?: 'dev-key-123
 define( 'LOGGED_IN_SALT',   getenv('WORDPRESS_LOGGED_IN_SALT')   ?: 'dev-key-123' );
 define( 'NONCE_SALT',       getenv('WORDPRESS_NONCE_SALT')       ?: 'dev-key-123' );
 
+// =================================================================
+// 9. CWA API Token (中央氣象署 API 金鑰)
+// =================================================================
+define( 'CWA_API_TOKEN', getenv('CWA_API_TOKEN') ?: '' );
+
 $table_prefix = 'wp_';
 
 // =================================================================

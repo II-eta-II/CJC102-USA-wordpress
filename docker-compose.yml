@@ -25,6 +25,9 @@ services:
       # 本地允許安裝外掛
       WORDPRESS_LOCK_MODS: "false"
       WORDPRESS_DEBUG: "true"
+      # CWA API Token (中央氣象署 API 金鑰)
+      # ⚠️ 請使用 .env 檔案或在部署時設定環境變數，不要在此處寫入明文 token
+      CWA_API_TOKEN: ${CWA_API_TOKEN}
     volumes:
       # 【關鍵】同步本地程式碼到容器
       - ./src:/var/www/html
